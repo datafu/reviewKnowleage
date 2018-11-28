@@ -1,0 +1,1366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CC30CCA667DF86BD70551FD /* libPods-reviewKnowleage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C79C17CA49EA869ACD407D /* libPods-reviewKnowleage.a */; };
+		BC1399DB219DA72600F3D2CA /* FSPTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1399DA219DA72600F3D2CA /* FSPTextFieldViewController.m */; };
+		BC1399F3219E7E3A00F3D2CA /* FSPviolationTableViewViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1399F1219E7E3A00F3D2CA /* FSPviolationTableViewViewCell.m */; };
+		BC1399F4219E7E3A00F3D2CA /* FSPviolationTableViewViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC1399F2219E7E3A00F3D2CA /* FSPviolationTableViewViewCell.xib */; };
+		BC1399F8219E879200F3D2CA /* FSPselfAdaptViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC1399F5219E879200F3D2CA /* FSPselfAdaptViewController.xib */; };
+		BC1399F9219E879200F3D2CA /* FSPselfAdaptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1399F7219E879200F3D2CA /* FSPselfAdaptViewController.m */; };
+		BC1399FF219E8CFA00F3D2CA /* FSPUITextFieldInputJuageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1399FE219E8CFA00F3D2CA /* FSPUITextFieldInputJuageTools.m */; };
+		BC139A09219EDC7500F3D2CA /* NSNull+OVNatural.m in Sources */ = {isa = PBXBuildFile; fileRef = BC139A06219EDC7500F3D2CA /* NSNull+OVNatural.m */; };
+		BC139A0C219EDEB200F3D2CA /* NSString+FSP.m in Sources */ = {isa = PBXBuildFile; fileRef = BC139A0B219EDEB200F3D2CA /* NSString+FSP.m */; };
+		BC139A10219EE6B700F3D2CA /* NSDate+FSP.m in Sources */ = {isa = PBXBuildFile; fileRef = BC139A0F219EE6B700F3D2CA /* NSDate+FSP.m */; };
+		BC1E48B12174C57C001467B7 /* QDUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1E48B02174C57C001467B7 /* QDUIHelper.m */; };
+		BC1E48BA21759C3B001467B7 /* QDCommonUI.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1E48B921759C3B001467B7 /* QDCommonUI.m */; };
+		BC234CEC217D71D30010DA39 /* UIColor+FF.m in Sources */ = {isa = PBXBuildFile; fileRef = BC234CEB217D71D20010DA39 /* UIColor+FF.m */; };
+		BC234CEF217DA1DC0010DA39 /* UIButton+FF.m in Sources */ = {isa = PBXBuildFile; fileRef = BC234CEE217DA1DC0010DA39 /* UIButton+FF.m */; };
+		BC5A3E0B21776C0D0070BD6B /* QDNormalButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5A3E0A21776C0D0070BD6B /* QDNormalButtonViewController.m */; };
+		BC670D0B2176F20300E41CDB /* QDButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC670D0A2176F20300E41CDB /* QDButtonViewController.m */; };
+		BC670D0F2176F32100E41CDB /* QDGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC670D0D2176F32100E41CDB /* QDGridViewController.m */; };
+		BC7319BB216A391B00C7C59E /* reviewKnowleageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7319BA216A391B00C7C59E /* reviewKnowleageTests.m */; };
+		BC7319C6216A391B00C7C59E /* reviewKnowleageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7319C5216A391B00C7C59E /* reviewKnowleageUITests.m */; };
+		BC7326FE216C6AC500C7C59E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7326ED216C6AC400C7C59E /* main.m */; };
+		BC732701216C6AC500C7C59E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC7326F5216C6AC400C7C59E /* Assets.xcassets */; };
+		BC732702216C6AC500C7C59E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7326F7216C6AC400C7C59E /* LaunchScreen.storyboard */; };
+		BC732703216C6AC500C7C59E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7326F9216C6AC400C7C59E /* Main.storyboard */; };
+		BC88E26E21A54C2D002AFC3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC88E26D21A54C2D002AFC3D /* AppDelegate.m */; };
+		BC88E27521A54CE6002AFC3D /* AppDelegate+FSPJPush.m in Sources */ = {isa = PBXBuildFile; fileRef = BC88E27421A54CE6002AFC3D /* AppDelegate+FSPJPush.m */; };
+		BC96278F2183362B0087ABBC /* FSPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BC96278E2183362B0087ABBC /* FSPTextField.m */; };
+		BC96279321834D6D0087ABBC /* FSPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC96279121834D6D0087ABBC /* FSPViewController.m */; };
+		BC96279421834D6D0087ABBC /* FSPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC96279221834D6D0087ABBC /* FSPViewController.xib */; };
+		BC9731B2217820B900FF126D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC9731B4217820B900FF126D /* Localizable.strings */; };
+		BC9731B92178276500FF126D /* QDLinkButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9731B82178276500FF126D /* QDLinkButtonViewController.m */; };
+		BC9731BC21783F7E00FF126D /* QDGhostButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9731BB21783F7E00FF126D /* QDGhostButtonViewController.m */; };
+		BC9731BF21786E0000FF126D /* QDNavigationButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9731BE21786E0000FF126D /* QDNavigationButtonViewController.m */; };
+		BC9731C22178727D00FF126D /* QDTabBarItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9731C12178727D00FF126D /* QDTabBarItemViewController.m */; };
+		BC9731C52178733A00FF126D /* QDToolBarButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9731C42178733A00FF126D /* QDToolBarButtonViewController.m */; };
+		BCC7EAA02175FC800096E587 /* QMUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7EA9F2175FC800096E587 /* QMUIConfigurationTemplate.m */; };
+		BCC7EAA32175FCA50096E587 /* QDThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7EAA22175FCA50096E587 /* QDThemeManager.m */; };
+		BCDCD30521796E9C007D9682 /* BaseCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDCD2EC21796E9C007D9682 /* BaseCommonViewController.m */; };
+		BCDCD30621796E9C007D9682 /* BaseCommonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDCD2EF21796E9C007D9682 /* BaseCommonListViewController.m */; };
+		BCDCD30721796E9C007D9682 /* BaseCommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDCD2F221796E9C007D9682 /* BaseCommonTableViewController.m */; };
+		BCDCD30821796E9C007D9682 /* BaseCommonGroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDCD2F521796E9C007D9682 /* BaseCommonGroupListViewController.m */; };
+		BCDCD30921796E9C007D9682 /* QDCommonGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDCD2F721796E9C007D9682 /* QDCommonGridViewController.m */; };
+		BCDCD30E21796E9C007D9682 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDCD30021796E9C007D9682 /* BaseNavigationController.m */; };
+		BCDCD30F21796E9C007D9682 /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDCD30321796E9C007D9682 /* BaseTabBarViewController.m */; };
+		BCDCD346217B1869007D9682 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDCD345217B1869007D9682 /* SettingViewController.m */; };
+		BCDCD349217B18C7007D9682 /* HeadImgTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDCD348217B18C7007D9682 /* HeadImgTableViewCell.m */; };
+		BCDF26BC217B738F00D3F3BF /* FFDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDF26BB217B738F00D3F3BF /* FFDialogViewController.m */; };
+		BCE15980217F04A300861B64 /* FFDialogTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE1597F217F04A300861B64 /* FFDialogTextFieldViewController.m */; };
+		D146D084C8A0E6A5E24EBE98 /* libPods-reviewKnowleageUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0820F34EA9C0F80697FCB0 /* libPods-reviewKnowleageUITests.a */; };
+		E2258A33CB6EEA75E17CF544 /* libPods-reviewKnowleageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE4B0B7E848E74A7C5F7F90 /* libPods-reviewKnowleageTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC7319B7216A391B00C7C59E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC731996216A391200C7C59E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC73199D216A391200C7C59E;
+			remoteInfo = reviewKnowleage;
+		};
+		BC7319C2216A391B00C7C59E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC731996216A391200C7C59E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC73199D216A391200C7C59E;
+			remoteInfo = reviewKnowleage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AABA35BF2F8A078E43C4EDA /* Pods-reviewKnowleage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reviewKnowleage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-reviewKnowleage/Pods-reviewKnowleage.debug.xcconfig"; sourceTree = "<group>"; };
+		554D85889ABDDB977185FF26 /* Pods-reviewKnowleageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reviewKnowleageTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-reviewKnowleageTests/Pods-reviewKnowleageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C811A140837DB0F38E9A872 /* Pods-reviewKnowleage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reviewKnowleage.release.xcconfig"; path = "Pods/Target Support Files/Pods-reviewKnowleage/Pods-reviewKnowleage.release.xcconfig"; sourceTree = "<group>"; };
+		7D736401E45E3411B2B025BA /* Pods-reviewKnowleageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reviewKnowleageTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-reviewKnowleageTests/Pods-reviewKnowleageTests.release.xcconfig"; sourceTree = "<group>"; };
+		8EE4B0B7E848E74A7C5F7F90 /* libPods-reviewKnowleageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reviewKnowleageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0820F34EA9C0F80697FCB0 /* libPods-reviewKnowleageUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reviewKnowleageUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1399D9219DA72600F3D2CA /* FSPTextFieldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPTextFieldViewController.h; sourceTree = "<group>"; };
+		BC1399DA219DA72600F3D2CA /* FSPTextFieldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPTextFieldViewController.m; sourceTree = "<group>"; };
+		BC1399F0219E7E3A00F3D2CA /* FSPviolationTableViewViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPviolationTableViewViewCell.h; sourceTree = "<group>"; };
+		BC1399F1219E7E3A00F3D2CA /* FSPviolationTableViewViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPviolationTableViewViewCell.m; sourceTree = "<group>"; };
+		BC1399F2219E7E3A00F3D2CA /* FSPviolationTableViewViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSPviolationTableViewViewCell.xib; sourceTree = "<group>"; };
+		BC1399F5219E879200F3D2CA /* FSPselfAdaptViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSPselfAdaptViewController.xib; sourceTree = "<group>"; };
+		BC1399F6219E879200F3D2CA /* FSPselfAdaptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPselfAdaptViewController.h; sourceTree = "<group>"; };
+		BC1399F7219E879200F3D2CA /* FSPselfAdaptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPselfAdaptViewController.m; sourceTree = "<group>"; };
+		BC1399FD219E8CFA00F3D2CA /* FSPUITextFieldInputJuageTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPUITextFieldInputJuageTools.h; sourceTree = "<group>"; };
+		BC1399FE219E8CFA00F3D2CA /* FSPUITextFieldInputJuageTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPUITextFieldInputJuageTools.m; sourceTree = "<group>"; };
+		BC139A06219EDC7500F3D2CA /* NSNull+OVNatural.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+OVNatural.m"; sourceTree = "<group>"; };
+		BC139A07219EDC7500F3D2CA /* NSNull+OVNatural.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+OVNatural.h"; sourceTree = "<group>"; };
+		BC139A0A219EDEB200F3D2CA /* NSString+FSP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+FSP.h"; sourceTree = "<group>"; };
+		BC139A0B219EDEB200F3D2CA /* NSString+FSP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+FSP.m"; sourceTree = "<group>"; };
+		BC139A0E219EE6B700F3D2CA /* NSDate+FSP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+FSP.h"; sourceTree = "<group>"; };
+		BC139A0F219EE6B700F3D2CA /* NSDate+FSP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FSP.m"; sourceTree = "<group>"; };
+		BC1E48AF2174C57C001467B7 /* QDUIHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDUIHelper.h; sourceTree = "<group>"; };
+		BC1E48B02174C57C001467B7 /* QDUIHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDUIHelper.m; sourceTree = "<group>"; };
+		BC1E48B22174C5D9001467B7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BC1E48B821759C3B001467B7 /* QDCommonUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDCommonUI.h; sourceTree = "<group>"; };
+		BC1E48B921759C3B001467B7 /* QDCommonUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDCommonUI.m; sourceTree = "<group>"; };
+		BC234CEA217D71D20010DA39 /* UIColor+FF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+FF.h"; sourceTree = "<group>"; };
+		BC234CEB217D71D20010DA39 /* UIColor+FF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FF.m"; sourceTree = "<group>"; };
+		BC234CED217DA1DC0010DA39 /* UIButton+FF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+FF.h"; sourceTree = "<group>"; };
+		BC234CEE217DA1DC0010DA39 /* UIButton+FF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FF.m"; sourceTree = "<group>"; };
+		BC5A3E0921776C0D0070BD6B /* QDNormalButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDNormalButtonViewController.h; sourceTree = "<group>"; };
+		BC5A3E0A21776C0D0070BD6B /* QDNormalButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDNormalButtonViewController.m; sourceTree = "<group>"; };
+		BC670D092176F20300E41CDB /* QDButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDButtonViewController.h; sourceTree = "<group>"; };
+		BC670D0A2176F20300E41CDB /* QDButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDButtonViewController.m; sourceTree = "<group>"; };
+		BC670D0D2176F32100E41CDB /* QDGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDGridViewController.m; sourceTree = "<group>"; };
+		BC670D0E2176F32100E41CDB /* QDGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDGridViewController.h; sourceTree = "<group>"; };
+		BC73199E216A391200C7C59E /* reviewKnowleage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reviewKnowleage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC7319B6216A391B00C7C59E /* reviewKnowleageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reviewKnowleageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC7319BA216A391B00C7C59E /* reviewKnowleageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reviewKnowleageTests.m; sourceTree = "<group>"; };
+		BC7319BC216A391B00C7C59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC7319C1216A391B00C7C59E /* reviewKnowleageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reviewKnowleageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC7319C5216A391B00C7C59E /* reviewKnowleageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reviewKnowleageUITests.m; sourceTree = "<group>"; };
+		BC7319C7216A391B00C7C59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC7326ED216C6AC400C7C59E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC7326F5216C6AC400C7C59E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC7326F8216C6AC400C7C59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC7326FA216C6AC400C7C59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		BC88E26C21A54C2D002AFC3D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC88E26D21A54C2D002AFC3D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC88E27321A54CE6002AFC3D /* AppDelegate+FSPJPush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+FSPJPush.h"; sourceTree = "<group>"; };
+		BC88E27421A54CE6002AFC3D /* AppDelegate+FSPJPush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+FSPJPush.m"; sourceTree = "<group>"; };
+		BC96278D2183362B0087ABBC /* FSPTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPTextField.h; sourceTree = "<group>"; };
+		BC96278E2183362B0087ABBC /* FSPTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPTextField.m; sourceTree = "<group>"; };
+		BC96279021834D6D0087ABBC /* FSPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPViewController.h; sourceTree = "<group>"; };
+		BC96279121834D6D0087ABBC /* FSPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPViewController.m; sourceTree = "<group>"; };
+		BC96279221834D6D0087ABBC /* FSPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSPViewController.xib; sourceTree = "<group>"; };
+		BC9731B02178200E00FF126D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "../zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		BC9731B12178200F00FF126D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "../zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		BC9731B3217820B900FF126D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		BC9731B5217820BD00FF126D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC9731B6217820E200FF126D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC9731B72178276500FF126D /* QDLinkButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDLinkButtonViewController.h; sourceTree = "<group>"; };
+		BC9731B82178276500FF126D /* QDLinkButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDLinkButtonViewController.m; sourceTree = "<group>"; };
+		BC9731BA21783F7E00FF126D /* QDGhostButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDGhostButtonViewController.h; sourceTree = "<group>"; };
+		BC9731BB21783F7E00FF126D /* QDGhostButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDGhostButtonViewController.m; sourceTree = "<group>"; };
+		BC9731BD21786E0000FF126D /* QDNavigationButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDNavigationButtonViewController.h; sourceTree = "<group>"; };
+		BC9731BE21786E0000FF126D /* QDNavigationButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDNavigationButtonViewController.m; sourceTree = "<group>"; };
+		BC9731C02178727D00FF126D /* QDTabBarItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDTabBarItemViewController.h; sourceTree = "<group>"; };
+		BC9731C12178727D00FF126D /* QDTabBarItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDTabBarItemViewController.m; sourceTree = "<group>"; };
+		BC9731C32178733A00FF126D /* QDToolBarButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDToolBarButtonViewController.h; sourceTree = "<group>"; };
+		BC9731C42178733A00FF126D /* QDToolBarButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDToolBarButtonViewController.m; sourceTree = "<group>"; };
+		BCC7EA9E2175FC800096E587 /* QMUIConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplate.h; sourceTree = "<group>"; };
+		BCC7EA9F2175FC800096E587 /* QMUIConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplate.m; sourceTree = "<group>"; };
+		BCC7EAA12175FCA50096E587 /* QDThemeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDThemeManager.h; sourceTree = "<group>"; };
+		BCC7EAA22175FCA50096E587 /* QDThemeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDThemeManager.m; sourceTree = "<group>"; };
+		BCC7EAA42175FCEB0096E587 /* QDThemeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDThemeProtocol.h; sourceTree = "<group>"; };
+		BCDCD2EB21796E9C007D9682 /* BaseCommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCommonViewController.h; sourceTree = "<group>"; };
+		BCDCD2EC21796E9C007D9682 /* BaseCommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCommonViewController.m; sourceTree = "<group>"; };
+		BCDCD2EF21796E9C007D9682 /* BaseCommonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCommonListViewController.m; sourceTree = "<group>"; };
+		BCDCD2F021796E9C007D9682 /* BaseCommonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCommonListViewController.h; sourceTree = "<group>"; };
+		BCDCD2F121796E9C007D9682 /* BaseCommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCommonTableViewController.h; sourceTree = "<group>"; };
+		BCDCD2F221796E9C007D9682 /* BaseCommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCommonTableViewController.m; sourceTree = "<group>"; };
+		BCDCD2F421796E9C007D9682 /* BaseCommonGroupListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCommonGroupListViewController.h; sourceTree = "<group>"; };
+		BCDCD2F521796E9C007D9682 /* BaseCommonGroupListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCommonGroupListViewController.m; sourceTree = "<group>"; };
+		BCDCD2F721796E9C007D9682 /* QDCommonGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonGridViewController.m; sourceTree = "<group>"; };
+		BCDCD2FD21796E9C007D9682 /* QDCommonGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonGridViewController.h; sourceTree = "<group>"; };
+		BCDCD30021796E9C007D9682 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		BCDCD30121796E9C007D9682 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		BCDCD30321796E9C007D9682 /* BaseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
+		BCDCD30421796E9C007D9682 /* BaseTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarViewController.h; sourceTree = "<group>"; };
+		BCDCD344217B1869007D9682 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		BCDCD345217B1869007D9682 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		BCDCD347217B18C7007D9682 /* HeadImgTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadImgTableViewCell.h; sourceTree = "<group>"; };
+		BCDCD348217B18C7007D9682 /* HeadImgTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadImgTableViewCell.m; sourceTree = "<group>"; };
+		BCDF26BA217B738F00D3F3BF /* FFDialogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFDialogViewController.h; sourceTree = "<group>"; };
+		BCDF26BB217B738F00D3F3BF /* FFDialogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFDialogViewController.m; sourceTree = "<group>"; };
+		BCE1597E217F04A300861B64 /* FFDialogTextFieldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFDialogTextFieldViewController.h; sourceTree = "<group>"; };
+		BCE1597F217F04A300861B64 /* FFDialogTextFieldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFDialogTextFieldViewController.m; sourceTree = "<group>"; };
+		C1C79C17CA49EA869ACD407D /* libPods-reviewKnowleage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reviewKnowleage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDCC08347E67BE27D4A5E0A /* Pods-reviewKnowleageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reviewKnowleageUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-reviewKnowleageUITests/Pods-reviewKnowleageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D56E074472BF9928884D876A /* Pods-reviewKnowleageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reviewKnowleageUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-reviewKnowleageUITests/Pods-reviewKnowleageUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC73199B216A391200C7C59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC30CCA667DF86BD70551FD /* libPods-reviewKnowleage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7319B3216A391B00C7C59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2258A33CB6EEA75E17CF544 /* libPods-reviewKnowleageTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7319BE216A391B00C7C59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D146D084C8A0E6A5E24EBE98 /* libPods-reviewKnowleageUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC1399D8219DA6ED00F3D2CA /* TextField(编辑框) */ = {
+			isa = PBXGroup;
+			children = (
+				BC1399D9219DA72600F3D2CA /* FSPTextFieldViewController.h */,
+				BC1399DA219DA72600F3D2CA /* FSPTextFieldViewController.m */,
+			);
+			path = "TextField(编辑框)";
+			sourceTree = "<group>";
+		};
+		BC1399DC219E4E6000F3D2CA /* uikit-demo(使用到的技术点收集) */ = {
+			isa = PBXGroup;
+			children = (
+				BC1399DD219E4F1F00F3D2CA /* xib 高度自适应 */,
+			);
+			path = "uikit-demo(使用到的技术点收集)";
+			sourceTree = "<group>";
+		};
+		BC1399DD219E4F1F00F3D2CA /* xib 高度自适应 */ = {
+			isa = PBXGroup;
+			children = (
+				BC1399DE219E4F1F00F3D2CA /* model */,
+				BC1399DF219E4F1F00F3D2CA /* view */,
+				BC1399E3219E4F1F00F3D2CA /* Controllers */,
+			);
+			path = "xib 高度自适应";
+			sourceTree = "<group>";
+		};
+		BC1399DE219E4F1F00F3D2CA /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BC1399DF219E4F1F00F3D2CA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BC1399F0219E7E3A00F3D2CA /* FSPviolationTableViewViewCell.h */,
+				BC1399F1219E7E3A00F3D2CA /* FSPviolationTableViewViewCell.m */,
+				BC1399F2219E7E3A00F3D2CA /* FSPviolationTableViewViewCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		BC1399E3219E4F1F00F3D2CA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC1399F6219E879200F3D2CA /* FSPselfAdaptViewController.h */,
+				BC1399F7219E879200F3D2CA /* FSPselfAdaptViewController.m */,
+				BC1399F5219E879200F3D2CA /* FSPselfAdaptViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BC1399FB219E8CDF00F3D2CA /* Foundation(封装一些常用的方法) */ = {
+			isa = PBXGroup;
+			children = (
+				BC1399FC219E8CDF00F3D2CA /* UITextFieldInputJuageTools(输入判断工具类) */,
+			);
+			path = "Foundation(封装一些常用的方法)";
+			sourceTree = "<group>";
+		};
+		BC1399FC219E8CDF00F3D2CA /* UITextFieldInputJuageTools(输入判断工具类) */ = {
+			isa = PBXGroup;
+			children = (
+				BC1399FD219E8CFA00F3D2CA /* FSPUITextFieldInputJuageTools.h */,
+				BC1399FE219E8CFA00F3D2CA /* FSPUITextFieldInputJuageTools.m */,
+			);
+			path = "UITextFieldInputJuageTools(输入判断工具类)";
+			sourceTree = "<group>";
+		};
+		BC139A04219EDC7500F3D2CA /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				BC139A0D219EE6A700F3D2CA /* NSDate */,
+				BC139A05219EDC7500F3D2CA /* NSNull */,
+				BC139A08219EDC7500F3D2CA /* NSString */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		BC139A05219EDC7500F3D2CA /* NSNull */ = {
+			isa = PBXGroup;
+			children = (
+				BC139A06219EDC7500F3D2CA /* NSNull+OVNatural.m */,
+				BC139A07219EDC7500F3D2CA /* NSNull+OVNatural.h */,
+			);
+			path = NSNull;
+			sourceTree = "<group>";
+		};
+		BC139A08219EDC7500F3D2CA /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				BC139A0A219EDEB200F3D2CA /* NSString+FSP.h */,
+				BC139A0B219EDEB200F3D2CA /* NSString+FSP.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		BC139A0D219EE6A700F3D2CA /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				BC139A0E219EE6B700F3D2CA /* NSDate+FSP.h */,
+				BC139A0F219EE6B700F3D2CA /* NSDate+FSP.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		BC1E48A22174AF2A001467B7 /* uikit */ = {
+			isa = PBXGroup;
+			children = (
+				BC1399DC219E4E6000F3D2CA /* uikit-demo(使用到的技术点收集) */,
+				BC234CF0217DAF2A0010DA39 /* DialogView(提示类弹窗) */,
+				BC1E48A52174B1FA001467B7 /* qmui */,
+			);
+			path = uikit;
+			sourceTree = "<group>";
+		};
+		BC1E48A52174B1FA001467B7 /* qmui */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7EA9C2175FC800096E587 /* Configuration */,
+				BCC7EA9A2175F9240096E587 /* demo */,
+				BC1E48AE2174C55B001467B7 /* tools */,
+				BC1E48A62174B1FA001467B7 /* Components */,
+				BC1E48A82174B1FA001467B7 /* Common */,
+			);
+			path = qmui;
+			sourceTree = "<group>";
+		};
+		BC1E48A62174B1FA001467B7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7EA992175F8770096E587 /* Button(按钮) */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BC1E48A82174B1FA001467B7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCD2E921796E9C007D9682 /* module */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BC1E48AE2174C55B001467B7 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				BC1E48AF2174C57C001467B7 /* QDUIHelper.h */,
+				BC1E48B02174C57C001467B7 /* QDUIHelper.m */,
+				BC1E48B821759C3B001467B7 /* QDCommonUI.h */,
+				BC1E48B921759C3B001467B7 /* QDCommonUI.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		BC234CE8217D71B00010DA39 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BC139A04219EDC7500F3D2CA /* Foundation */,
+				BC234CE9217D71B00010DA39 /* uikit */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BC234CE9217D71B00010DA39 /* uikit */ = {
+			isa = PBXGroup;
+			children = (
+				BC234CEA217D71D20010DA39 /* UIColor+FF.h */,
+				BC234CEB217D71D20010DA39 /* UIColor+FF.m */,
+				BC234CED217DA1DC0010DA39 /* UIButton+FF.h */,
+				BC234CEE217DA1DC0010DA39 /* UIButton+FF.m */,
+			);
+			path = uikit;
+			sourceTree = "<group>";
+		};
+		BC234CF0217DAF2A0010DA39 /* DialogView(提示类弹窗) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "DialogView(提示类弹窗)";
+			sourceTree = "<group>";
+		};
+		BC670D0C2176F32100E41CDB /* QDGridViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BC670D0D2176F32100E41CDB /* QDGridViewController.m */,
+				BC670D0E2176F32100E41CDB /* QDGridViewController.h */,
+			);
+			path = QDGridViewController;
+			sourceTree = "<group>";
+		};
+		BC731995216A391200C7C59E = {
+			isa = PBXGroup;
+			children = (
+				BC7319A0216A391200C7C59E /* reviewKnowleage */,
+				BC7319B9216A391B00C7C59E /* reviewKnowleageTests */,
+				BC7319C4216A391B00C7C59E /* reviewKnowleageUITests */,
+				BC73199F216A391200C7C59E /* Products */,
+				DAEC4324428CB00CFD263565 /* Pods */,
+				F82F52E2124A46684701D59C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC73199F216A391200C7C59E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC73199E216A391200C7C59E /* reviewKnowleage.app */,
+				BC7319B6216A391B00C7C59E /* reviewKnowleageTests.xctest */,
+				BC7319C1216A391B00C7C59E /* reviewKnowleageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC7319A0216A391200C7C59E /* reviewKnowleage */ = {
+			isa = PBXGroup;
+			children = (
+				BC7326FB216C6AC500C7C59E /* Tools */,
+				BC7326F4216C6AC400C7C59E /* Classes */,
+				BC7326EA216C6AC400C7C59E /* Others */,
+				BC7326F5216C6AC400C7C59E /* Assets.xcassets */,
+			);
+			path = reviewKnowleage;
+			sourceTree = "<group>";
+		};
+		BC7319B9216A391B00C7C59E /* reviewKnowleageTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC7319BA216A391B00C7C59E /* reviewKnowleageTests.m */,
+				BC7319BC216A391B00C7C59E /* Info.plist */,
+			);
+			path = reviewKnowleageTests;
+			sourceTree = "<group>";
+		};
+		BC7319C4216A391B00C7C59E /* reviewKnowleageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC7319C5216A391B00C7C59E /* reviewKnowleageUITests.m */,
+				BC7319C7216A391B00C7C59E /* Info.plist */,
+			);
+			path = reviewKnowleageUITests;
+			sourceTree = "<group>";
+		};
+		BC7326EA216C6AC400C7C59E /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				BC88E26B21A54C2D002AFC3D /* AppDelegate */,
+				BC7326F6216C6AC400C7C59E /* Base.lproj */,
+				BC7326ED216C6AC400C7C59E /* main.m */,
+				BC1E48B22174C5D9001467B7 /* PrefixHeader.pch */,
+				BC9731B4217820B900FF126D /* Localizable.strings */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		BC7326F4216C6AC400C7C59E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC1E48A22174AF2A001467B7 /* uikit */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC7326F6216C6AC400C7C59E /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				BC7326F7216C6AC400C7C59E /* LaunchScreen.storyboard */,
+				BC7326F9216C6AC400C7C59E /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		BC7326FB216C6AC500C7C59E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				BC1399FB219E8CDF00F3D2CA /* Foundation(封装一些常用的方法) */,
+				BC234CE8217D71B00010DA39 /* Category */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		BC88E26B21A54C2D002AFC3D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BC88E26F21A54C5D002AFC3D /* AppDelegate+Push(极光推送) */,
+				BC88E26C21A54C2D002AFC3D /* AppDelegate.h */,
+				BC88E26D21A54C2D002AFC3D /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BC88E26F21A54C5D002AFC3D /* AppDelegate+Push(极光推送) */ = {
+			isa = PBXGroup;
+			children = (
+				BC88E27321A54CE6002AFC3D /* AppDelegate+FSPJPush.h */,
+				BC88E27421A54CE6002AFC3D /* AppDelegate+FSPJPush.m */,
+			);
+			path = "AppDelegate+Push(极光推送)";
+			sourceTree = "<group>";
+		};
+		BC962789218310730087ABBC /* uikit(所有控件封装) */ = {
+			isa = PBXGroup;
+			children = (
+				BC96278B218335F90087ABBC /* UIImageView */,
+				BC96278A218335F90087ABBC /* UILabel */,
+				BC96278C218335F90087ABBC /* UITextField */,
+			);
+			path = "uikit(所有控件封装)";
+			sourceTree = "<group>";
+		};
+		BC96278A218335F90087ABBC /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		BC96278B218335F90087ABBC /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		BC96278C218335F90087ABBC /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				BC96278D2183362B0087ABBC /* FSPTextField.h */,
+				BC96278E2183362B0087ABBC /* FSPTextField.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		BCC7EA992175F8770096E587 /* Button(按钮) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Button(按钮)";
+			sourceTree = "<group>";
+		};
+		BCC7EA9A2175F9240096E587 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				BC1399D8219DA6ED00F3D2CA /* TextField(编辑框) */,
+				BC670D0C2176F32100E41CDB /* QDGridViewController */,
+				BCC7EA9B2175F9460096E587 /* button(按钮) */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		BCC7EA9B2175F9460096E587 /* button(按钮) */ = {
+			isa = PBXGroup;
+			children = (
+				BC670D092176F20300E41CDB /* QDButtonViewController.h */,
+				BC670D0A2176F20300E41CDB /* QDButtonViewController.m */,
+				BC5A3E0921776C0D0070BD6B /* QDNormalButtonViewController.h */,
+				BC5A3E0A21776C0D0070BD6B /* QDNormalButtonViewController.m */,
+				BC9731B72178276500FF126D /* QDLinkButtonViewController.h */,
+				BC9731B82178276500FF126D /* QDLinkButtonViewController.m */,
+				BC9731BA21783F7E00FF126D /* QDGhostButtonViewController.h */,
+				BC9731BB21783F7E00FF126D /* QDGhostButtonViewController.m */,
+				BC9731BD21786E0000FF126D /* QDNavigationButtonViewController.h */,
+				BC9731BE21786E0000FF126D /* QDNavigationButtonViewController.m */,
+				BC9731C02178727D00FF126D /* QDTabBarItemViewController.h */,
+				BC9731C12178727D00FF126D /* QDTabBarItemViewController.m */,
+				BC9731C32178733A00FF126D /* QDToolBarButtonViewController.h */,
+				BC9731C42178733A00FF126D /* QDToolBarButtonViewController.m */,
+				BC96279021834D6D0087ABBC /* FSPViewController.h */,
+				BC96279121834D6D0087ABBC /* FSPViewController.m */,
+				BC96279221834D6D0087ABBC /* FSPViewController.xib */,
+			);
+			path = "button(按钮)";
+			sourceTree = "<group>";
+		};
+		BCC7EA9C2175FC800096E587 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7EA9D2175FC800096E587 /* QMUIConfigurationTemplate(全局样式表) */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		BCC7EA9D2175FC800096E587 /* QMUIConfigurationTemplate(全局样式表) */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7EA9E2175FC800096E587 /* QMUIConfigurationTemplate.h */,
+				BCC7EA9F2175FC800096E587 /* QMUIConfigurationTemplate.m */,
+				BCC7EAA12175FCA50096E587 /* QDThemeManager.h */,
+				BCC7EAA22175FCA50096E587 /* QDThemeManager.m */,
+				BCC7EAA42175FCEB0096E587 /* QDThemeProtocol.h */,
+			);
+			path = "QMUIConfigurationTemplate(全局样式表)";
+			sourceTree = "<group>";
+		};
+		BCDCD2E921796E9C007D9682 /* module */ = {
+			isa = PBXGroup;
+			children = (
+				BC962789218310730087ABBC /* uikit(所有控件封装) */,
+				BCDF26B9217B737900D3F3BF /* FFDialogViewController( 弹窗组件) */,
+				BCDCD33D2179BC4B007D9682 /* SettingViewController(设置界面) */,
+				BCDCD2EA21796E9C007D9682 /* BaseCommonViewController(普通控制器的基类) */,
+				BCDCD2ED21796E9C007D9682 /* CommonTableViewController(列表-添加主题响应) */,
+				BCDCD2F621796E9C007D9682 /* QDCommonGridViewController(网格列表) */,
+				BCDCD2FF21796E9C007D9682 /* QDBaseNavigationController(导航栏) */,
+				BCDCD30221796E9C007D9682 /* QDTabBarViewController(标签栏) */,
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		BCDCD2EA21796E9C007D9682 /* BaseCommonViewController(普通控制器的基类) */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCD2EB21796E9C007D9682 /* BaseCommonViewController.h */,
+				BCDCD2EC21796E9C007D9682 /* BaseCommonViewController.m */,
+			);
+			path = "BaseCommonViewController(普通控制器的基类)";
+			sourceTree = "<group>";
+		};
+		BCDCD2ED21796E9C007D9682 /* CommonTableViewController(列表-添加主题响应) */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCD2EE21796E9C007D9682 /* QDBaseCommonListViewController(普通列表基类) */,
+				BCDCD2F121796E9C007D9682 /* BaseCommonTableViewController.h */,
+				BCDCD2F221796E9C007D9682 /* BaseCommonTableViewController.m */,
+				BCDCD2F321796E9C007D9682 /* QDBaseCommonGroupListViewController(分组列表) */,
+			);
+			path = "CommonTableViewController(列表-添加主题响应)";
+			sourceTree = "<group>";
+		};
+		BCDCD2EE21796E9C007D9682 /* QDBaseCommonListViewController(普通列表基类) */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCD2EF21796E9C007D9682 /* BaseCommonListViewController.m */,
+				BCDCD2F021796E9C007D9682 /* BaseCommonListViewController.h */,
+			);
+			path = "QDBaseCommonListViewController(普通列表基类)";
+			sourceTree = "<group>";
+		};
+		BCDCD2F321796E9C007D9682 /* QDBaseCommonGroupListViewController(分组列表) */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCD2F421796E9C007D9682 /* BaseCommonGroupListViewController.h */,
+				BCDCD2F521796E9C007D9682 /* BaseCommonGroupListViewController.m */,
+			);
+			path = "QDBaseCommonGroupListViewController(分组列表)";
+			sourceTree = "<group>";
+		};
+		BCDCD2F621796E9C007D9682 /* QDCommonGridViewController(网格列表) */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCD2F721796E9C007D9682 /* QDCommonGridViewController.m */,
+				BCDCD2FD21796E9C007D9682 /* QDCommonGridViewController.h */,
+			);
+			path = "QDCommonGridViewController(网格列表)";
+			sourceTree = "<group>";
+		};
+		BCDCD2FF21796E9C007D9682 /* QDBaseNavigationController(导航栏) */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCD30021796E9C007D9682 /* BaseNavigationController.m */,
+				BCDCD30121796E9C007D9682 /* BaseNavigationController.h */,
+			);
+			path = "QDBaseNavigationController(导航栏)";
+			sourceTree = "<group>";
+		};
+		BCDCD30221796E9C007D9682 /* QDTabBarViewController(标签栏) */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCD30321796E9C007D9682 /* BaseTabBarViewController.m */,
+				BCDCD30421796E9C007D9682 /* BaseTabBarViewController.h */,
+			);
+			path = "QDTabBarViewController(标签栏)";
+			sourceTree = "<group>";
+		};
+		BCDCD33D2179BC4B007D9682 /* SettingViewController(设置界面) */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCD343217B1869007D9682 /* Controller */,
+				BCDCD341217B1868007D9682 /* model */,
+				BCDCD342217B1869007D9682 /* view */,
+			);
+			path = "SettingViewController(设置界面)";
+			sourceTree = "<group>";
+		};
+		BCDCD341217B1868007D9682 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BCDCD342217B1869007D9682 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCD347217B18C7007D9682 /* HeadImgTableViewCell.h */,
+				BCDCD348217B18C7007D9682 /* HeadImgTableViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		BCDCD343217B1869007D9682 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCD344217B1869007D9682 /* SettingViewController.h */,
+				BCDCD345217B1869007D9682 /* SettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCDF26B9217B737900D3F3BF /* FFDialogViewController( 弹窗组件) */ = {
+			isa = PBXGroup;
+			children = (
+				BCDF26BA217B738F00D3F3BF /* FFDialogViewController.h */,
+				BCDF26BB217B738F00D3F3BF /* FFDialogViewController.m */,
+				BCE1597E217F04A300861B64 /* FFDialogTextFieldViewController.h */,
+				BCE1597F217F04A300861B64 /* FFDialogTextFieldViewController.m */,
+			);
+			path = "FFDialogViewController( 弹窗组件)";
+			sourceTree = "<group>";
+		};
+		DAEC4324428CB00CFD263565 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AABA35BF2F8A078E43C4EDA /* Pods-reviewKnowleage.debug.xcconfig */,
+				7C811A140837DB0F38E9A872 /* Pods-reviewKnowleage.release.xcconfig */,
+				554D85889ABDDB977185FF26 /* Pods-reviewKnowleageTests.debug.xcconfig */,
+				7D736401E45E3411B2B025BA /* Pods-reviewKnowleageTests.release.xcconfig */,
+				CCDCC08347E67BE27D4A5E0A /* Pods-reviewKnowleageUITests.debug.xcconfig */,
+				D56E074472BF9928884D876A /* Pods-reviewKnowleageUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F82F52E2124A46684701D59C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1C79C17CA49EA869ACD407D /* libPods-reviewKnowleage.a */,
+				8EE4B0B7E848E74A7C5F7F90 /* libPods-reviewKnowleageTests.a */,
+				AC0820F34EA9C0F80697FCB0 /* libPods-reviewKnowleageUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC73199D216A391200C7C59E /* reviewKnowleage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC7319CA216A391B00C7C59E /* Build configuration list for PBXNativeTarget "reviewKnowleage" */;
+			buildPhases = (
+				E091D8562BA3DBA04421FB6C /* [CP] Check Pods Manifest.lock */,
+				BC73199A216A391200C7C59E /* Sources */,
+				BC73199B216A391200C7C59E /* Frameworks */,
+				BC73199C216A391200C7C59E /* Resources */,
+				9A00802DD1B74998C00FA54A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = reviewKnowleage;
+			productName = reviewKnowleage;
+			productReference = BC73199E216A391200C7C59E /* reviewKnowleage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC7319B5216A391B00C7C59E /* reviewKnowleageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC7319CD216A391B00C7C59E /* Build configuration list for PBXNativeTarget "reviewKnowleageTests" */;
+			buildPhases = (
+				7DEE8500937F0F23385D0813 /* [CP] Check Pods Manifest.lock */,
+				BC7319B2216A391B00C7C59E /* Sources */,
+				BC7319B3216A391B00C7C59E /* Frameworks */,
+				BC7319B4216A391B00C7C59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC7319B8216A391B00C7C59E /* PBXTargetDependency */,
+			);
+			name = reviewKnowleageTests;
+			productName = reviewKnowleageTests;
+			productReference = BC7319B6216A391B00C7C59E /* reviewKnowleageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC7319C0216A391B00C7C59E /* reviewKnowleageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC7319D0216A391B00C7C59E /* Build configuration list for PBXNativeTarget "reviewKnowleageUITests" */;
+			buildPhases = (
+				809217BDEC4B40B40419D69C /* [CP] Check Pods Manifest.lock */,
+				BC7319BD216A391B00C7C59E /* Sources */,
+				BC7319BE216A391B00C7C59E /* Frameworks */,
+				BC7319BF216A391B00C7C59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC7319C3216A391B00C7C59E /* PBXTargetDependency */,
+			);
+			name = reviewKnowleageUITests;
+			productName = reviewKnowleageUITests;
+			productReference = BC7319C1216A391B00C7C59E /* reviewKnowleageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC731996216A391200C7C59E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FSP;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = fushp;
+				TargetAttributes = {
+					BC73199D216A391200C7C59E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					BC7319B5216A391B00C7C59E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BC73199D216A391200C7C59E;
+					};
+					BC7319C0216A391B00C7C59E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BC73199D216A391200C7C59E;
+					};
+				};
+			};
+			buildConfigurationList = BC731999216A391200C7C59E /* Build configuration list for PBXProject "reviewKnowleage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC731995216A391200C7C59E;
+			productRefGroup = BC73199F216A391200C7C59E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC73199D216A391200C7C59E /* reviewKnowleage */,
+				BC7319B5216A391B00C7C59E /* reviewKnowleageTests */,
+				BC7319C0216A391B00C7C59E /* reviewKnowleageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC73199C216A391200C7C59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1399F8219E879200F3D2CA /* FSPselfAdaptViewController.xib in Resources */,
+				BC9731B2217820B900FF126D /* Localizable.strings in Resources */,
+				BC96279421834D6D0087ABBC /* FSPViewController.xib in Resources */,
+				BC732703216C6AC500C7C59E /* Main.storyboard in Resources */,
+				BC1399F4219E7E3A00F3D2CA /* FSPviolationTableViewViewCell.xib in Resources */,
+				BC732702216C6AC500C7C59E /* LaunchScreen.storyboard in Resources */,
+				BC732701216C6AC500C7C59E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7319B4216A391B00C7C59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7319BF216A391B00C7C59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DEE8500937F0F23385D0813 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reviewKnowleageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		809217BDEC4B40B40419D69C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reviewKnowleageUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A00802DD1B74998C00FA54A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-reviewKnowleage/Pods-reviewKnowleage-resources.sh",
+				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Crash/UserInterface/LLCrashCell.xib",
+				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Crash/UserInterface/LLCrashContentCell.xib",
+				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/General/UserInterface/Controls/LLFilterView/LLFilterLabelCell.xib",
+				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/General/UserInterface/Controls/LLFilterView/LLFilterTextFieldCell.xib",
+				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/General/UserInterface/Controls/LLSubTitleTableViewCell/LLSubTitleTableViewCell.xib",
+				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Log/UserInterface/LLLogCell.xib",
+				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Network/UserInterface/LLNetworkCell.xib",
+				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Network/UserInterface/LLNetworkImageCell.xib",
+				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Sandbox/UserInterface/LLSandboxCell.xib",
+				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/General/UserInterface/Resources/LLDebugTool.bundle",
+				"${PODS_ROOT}/QMUIKit/QMUIKit/QMUIResources/QMUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLCrashCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLCrashContentCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLFilterLabelCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLFilterTextFieldCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLSubTitleTableViewCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLLogCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLNetworkCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLNetworkImageCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLSandboxCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLDebugTool.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QMUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-reviewKnowleage/Pods-reviewKnowleage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E091D8562BA3DBA04421FB6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reviewKnowleage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC73199A216A391200C7C59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC139A09219EDC7500F3D2CA /* NSNull+OVNatural.m in Sources */,
+				BC670D0B2176F20300E41CDB /* QDButtonViewController.m in Sources */,
+				BC139A0C219EDEB200F3D2CA /* NSString+FSP.m in Sources */,
+				BC234CEF217DA1DC0010DA39 /* UIButton+FF.m in Sources */,
+				BC9731BC21783F7E00FF126D /* QDGhostButtonViewController.m in Sources */,
+				BCDCD30621796E9C007D9682 /* BaseCommonListViewController.m in Sources */,
+				BC9731C22178727D00FF126D /* QDTabBarItemViewController.m in Sources */,
+				BC1399FF219E8CFA00F3D2CA /* FSPUITextFieldInputJuageTools.m in Sources */,
+				BCE15980217F04A300861B64 /* FFDialogTextFieldViewController.m in Sources */,
+				BCDCD30F21796E9C007D9682 /* BaseTabBarViewController.m in Sources */,
+				BC9731B92178276500FF126D /* QDLinkButtonViewController.m in Sources */,
+				BC234CEC217D71D30010DA39 /* UIColor+FF.m in Sources */,
+				BC1E48B12174C57C001467B7 /* QDUIHelper.m in Sources */,
+				BCDCD30721796E9C007D9682 /* BaseCommonTableViewController.m in Sources */,
+				BCDCD346217B1869007D9682 /* SettingViewController.m in Sources */,
+				BCDCD30E21796E9C007D9682 /* BaseNavigationController.m in Sources */,
+				BC9731C52178733A00FF126D /* QDToolBarButtonViewController.m in Sources */,
+				BC5A3E0B21776C0D0070BD6B /* QDNormalButtonViewController.m in Sources */,
+				BCDCD30521796E9C007D9682 /* BaseCommonViewController.m in Sources */,
+				BCDF26BC217B738F00D3F3BF /* FFDialogViewController.m in Sources */,
+				BC1399DB219DA72600F3D2CA /* FSPTextFieldViewController.m in Sources */,
+				BC1399F9219E879200F3D2CA /* FSPselfAdaptViewController.m in Sources */,
+				BCC7EAA32175FCA50096E587 /* QDThemeManager.m in Sources */,
+				BC1E48BA21759C3B001467B7 /* QDCommonUI.m in Sources */,
+				BC88E27521A54CE6002AFC3D /* AppDelegate+FSPJPush.m in Sources */,
+				BC88E26E21A54C2D002AFC3D /* AppDelegate.m in Sources */,
+				BC1399F3219E7E3A00F3D2CA /* FSPviolationTableViewViewCell.m in Sources */,
+				BC96279321834D6D0087ABBC /* FSPViewController.m in Sources */,
+				BCC7EAA02175FC800096E587 /* QMUIConfigurationTemplate.m in Sources */,
+				BC670D0F2176F32100E41CDB /* QDGridViewController.m in Sources */,
+				BC9731BF21786E0000FF126D /* QDNavigationButtonViewController.m in Sources */,
+				BC96278F2183362B0087ABBC /* FSPTextField.m in Sources */,
+				BC7326FE216C6AC500C7C59E /* main.m in Sources */,
+				BCDCD30921796E9C007D9682 /* QDCommonGridViewController.m in Sources */,
+				BCDCD349217B18C7007D9682 /* HeadImgTableViewCell.m in Sources */,
+				BC139A10219EE6B700F3D2CA /* NSDate+FSP.m in Sources */,
+				BCDCD30821796E9C007D9682 /* BaseCommonGroupListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7319B2216A391B00C7C59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7319BB216A391B00C7C59E /* reviewKnowleageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7319BD216A391B00C7C59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7319C6216A391B00C7C59E /* reviewKnowleageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC7319B8216A391B00C7C59E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC73199D216A391200C7C59E /* reviewKnowleage */;
+			targetProxy = BC7319B7216A391B00C7C59E /* PBXContainerItemProxy */;
+		};
+		BC7319C3216A391B00C7C59E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC73199D216A391200C7C59E /* reviewKnowleage */;
+			targetProxy = BC7319C2216A391B00C7C59E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC7326F7216C6AC400C7C59E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC7326F8216C6AC400C7C59E /* Base */,
+				BC9731B02178200E00FF126D /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BC7326F9216C6AC400C7C59E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC7326FA216C6AC400C7C59E /* Base */,
+				BC9731B12178200F00FF126D /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC9731B4217820B900FF126D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9731B3217820B900FF126D /* zh-Hans */,
+				BC9731B5217820BD00FF126D /* en */,
+				BC9731B6217820E200FF126D /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC7319C8216A391B00C7C59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC7319C9216A391B00C7C59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC7319CB216A391B00C7C59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AABA35BF2F8A078E43C4EDA /* Pods-reviewKnowleage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARR28QDX6Z;
+				GCC_PREFIX_HEADER = "${SRCROOT}/reviewKnowleage/Others/PrefixHeader.pch";
+				INFOPLIST_FILE = reviewKnowleage/Others/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fushp.reviewKnowleagenow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC7319CC216A391B00C7C59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C811A140837DB0F38E9A872 /* Pods-reviewKnowleage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARR28QDX6Z;
+				GCC_PREFIX_HEADER = "${SRCROOT}/reviewKnowleage/Others/PrefixHeader.pch";
+				INFOPLIST_FILE = reviewKnowleage/Others/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fushp.reviewKnowleagenow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC7319CE216A391B00C7C59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 554D85889ABDDB977185FF26 /* Pods-reviewKnowleageTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARR28QDX6Z;
+				INFOPLIST_FILE = reviewKnowleageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fushp.reviewKnowleageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reviewKnowleage.app/reviewKnowleage";
+			};
+			name = Debug;
+		};
+		BC7319CF216A391B00C7C59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D736401E45E3411B2B025BA /* Pods-reviewKnowleageTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARR28QDX6Z;
+				INFOPLIST_FILE = reviewKnowleageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fushp.reviewKnowleageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reviewKnowleage.app/reviewKnowleage";
+			};
+			name = Release;
+		};
+		BC7319D1216A391B00C7C59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCDCC08347E67BE27D4A5E0A /* Pods-reviewKnowleageUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARR28QDX6Z;
+				INFOPLIST_FILE = reviewKnowleageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fushp.reviewKnowleageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = reviewKnowleage;
+			};
+			name = Debug;
+		};
+		BC7319D2216A391B00C7C59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D56E074472BF9928884D876A /* Pods-reviewKnowleageUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARR28QDX6Z;
+				INFOPLIST_FILE = reviewKnowleageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fushp.reviewKnowleageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = reviewKnowleage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC731999216A391200C7C59E /* Build configuration list for PBXProject "reviewKnowleage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC7319C8216A391B00C7C59E /* Debug */,
+				BC7319C9216A391B00C7C59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC7319CA216A391B00C7C59E /* Build configuration list for PBXNativeTarget "reviewKnowleage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC7319CB216A391B00C7C59E /* Debug */,
+				BC7319CC216A391B00C7C59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC7319CD216A391B00C7C59E /* Build configuration list for PBXNativeTarget "reviewKnowleageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC7319CE216A391B00C7C59E /* Debug */,
+				BC7319CF216A391B00C7C59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC7319D0216A391B00C7C59E /* Build configuration list for PBXNativeTarget "reviewKnowleageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC7319D1216A391B00C7C59E /* Debug */,
+				BC7319D2216A391B00C7C59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC731996216A391200C7C59E /* Project object */;
+}

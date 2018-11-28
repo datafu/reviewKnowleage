@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/QMUIKit/QMUIKit/QMUICore/QMUICommonDefines.h"
+            timestampString = "561720919.874812"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "612"
+            endingLineNumber = "612"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CGRectSetY"
+                  moduleName = "reviewKnowleage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fushp/Desktop/project/Testworkspace/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%84%E7%A7%8D%E7%A9%BA%E9%97%B4%E6%B1%87%E6%80%BB/%E5%A4%8D%E4%B9%A0%E6%89%80%E6%9C%89%E7%9A%84%E5%86%85%E5%AE%B9!!!!!!!!/reviewKnowleage/Pods/QMUIKit/QMUIKit/QMUICore/QMUICommonDefines.h"
+                  timestampString = "561720382.361798"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "612"
+                  endingLineNumber = "612"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CGRectSetY"
+                  moduleName = "reviewKnowleage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fushp/Desktop/project/Testworkspace/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%84%E7%A7%8D%E7%A9%BA%E9%97%B4%E6%B1%87%E6%80%BB/%E5%A4%8D%E4%B9%A0%E6%89%80%E6%9C%89%E7%9A%84%E5%86%85%E5%AE%B9!!!!!!!!/reviewKnowleage/Pods/QMUIKit/QMUIKit/QMUICore/QMUICommonDefines.h"
+                  timestampString = "561720382.3650579"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "612"
+                  endingLineNumber = "612"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CGRectSetY"
+                  moduleName = "reviewKnowleage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fushp/Desktop/project/Testworkspace/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%84%E7%A7%8D%E7%A9%BA%E9%97%B4%E6%B1%87%E6%80%BB/%E5%A4%8D%E4%B9%A0%E6%89%80%E6%9C%89%E7%9A%84%E5%86%85%E5%AE%B9!!!!!!!!/reviewKnowleage/Pods/QMUIKit/QMUIKit/QMUICore/QMUICommonDefines.h"
+                  timestampString = "561720382.368464"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "612"
+                  endingLineNumber = "612"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CGRectSetY"
+                  moduleName = "reviewKnowleage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fushp/Desktop/project/Testworkspace/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%84%E7%A7%8D%E7%A9%BA%E9%97%B4%E6%B1%87%E6%80%BB/%E5%A4%8D%E4%B9%A0%E6%89%80%E6%9C%89%E7%9A%84%E5%86%85%E5%AE%B9!!!!!!!!/reviewKnowleage/Pods/QMUIKit/QMUIKit/QMUICore/QMUICommonDefines.h"
+                  timestampString = "561720382.371613"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "612"
+                  endingLineNumber = "612"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CGRectSetY"
+                  moduleName = "reviewKnowleage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fushp/Desktop/project/Testworkspace/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%84%E7%A7%8D%E7%A9%BA%E9%97%B4%E6%B1%87%E6%80%BB/%E5%A4%8D%E4%B9%A0%E6%89%80%E6%9C%89%E7%9A%84%E5%86%85%E5%AE%B9!!!!!!!!/reviewKnowleage/Pods/QMUIKit/QMUIKit/QMUICore/QMUICommonDefines.h"
+                  timestampString = "561720382.374725"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "612"
+                  endingLineNumber = "612"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CGRectSetY"
+                  moduleName = "reviewKnowleage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fushp/Desktop/project/Testworkspace/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%84%E7%A7%8D%E7%A9%BA%E9%97%B4%E6%B1%87%E6%80%BB/%E5%A4%8D%E4%B9%A0%E6%89%80%E6%9C%89%E7%9A%84%E5%86%85%E5%AE%B9!!!!!!!!/reviewKnowleage/Pods/QMUIKit/QMUIKit/QMUICore/QMUICommonDefines.h"
+                  timestampString = "561720382.378665"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "612"
+                  endingLineNumber = "612"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CGRectSetY"
+                  moduleName = "reviewKnowleage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fushp/Desktop/project/Testworkspace/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%84%E7%A7%8D%E7%A9%BA%E9%97%B4%E6%B1%87%E6%80%BB/%E5%A4%8D%E4%B9%A0%E6%89%80%E6%9C%89%E7%9A%84%E5%86%85%E5%AE%B9!!!!!!!!/reviewKnowleage/Pods/QMUIKit/QMUIKit/QMUICore/QMUICommonDefines.h"
+                  timestampString = "561720382.382939"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "612"
+                  endingLineNumber = "612"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CGRectSetY"
+                  moduleName = "reviewKnowleage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fushp/Desktop/project/Testworkspace/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%84%E7%A7%8D%E7%A9%BA%E9%97%B4%E6%B1%87%E6%80%BB/%E5%A4%8D%E4%B9%A0%E6%89%80%E6%9C%89%E7%9A%84%E5%86%85%E5%AE%B9!!!!!!!!/reviewKnowleage/Pods/QMUIKit/QMUIKit/QMUICore/QMUICommonDefines.h"
+                  timestampString = "561720382.38697"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "612"
+                  endingLineNumber = "612"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CGRectSetY"
+                  moduleName = "reviewKnowleage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fushp/Desktop/project/Testworkspace/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%84%E7%A7%8D%E7%A9%BA%E9%97%B4%E6%B1%87%E6%80%BB/%E5%A4%8D%E4%B9%A0%E6%89%80%E6%9C%89%E7%9A%84%E5%86%85%E5%AE%B9!!!!!!!!/reviewKnowleage/Pods/QMUIKit/QMUIKit/QMUICore/QMUICommonDefines.h"
+                  timestampString = "561720382.389985"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "612"
+                  endingLineNumber = "612"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.m"
+            timestampString = "564038134.628951"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "541"
+            endingLineNumber = "541"
+            landmarkName = "-qmui_borderLocation"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/QMUIKit/QMUIKit/QMUIComponents/QMUITextField.m"
+            timestampString = "564040391.583184"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "-textField:shouldChangeCharactersInRange:replacementString:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "reviewKnowleage/Classes/uikit/qmui/Common/module/FFDialogViewController( &#x5f39;&#x7a97;&#x7ec4;&#x4ef6;)/FFDialogViewController.h"
+            timestampString = "565002809.116556"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "FFDialogViewController"
+            landmarkType = "2">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
