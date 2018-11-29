@@ -10,6 +10,8 @@
 #import "QDButtonViewController.h"
 #import "FSPTextFieldViewController.h"
 #import "FSPselfAdaptViewController.h"
+#import "SEMIBarcodeScannerViewController.h"
+#import "SEMIPlayMusicViewController.h"
 
 @interface QDGridViewController ()
 
@@ -38,6 +40,8 @@
                                         @"QMUIButton",UIImageMake(@"icon_grid_button"),
                             @"FSPTextField",UIImageMake(@"icon_grid_textField"),
                        @"FSPselfAdaptViewController",UIImageMake(@"icon_grid_textField"),
+        @"SEMIBarcodeScannerViewController",UIImageMake(@"icon_grid_textField"),
+        @"SEMIPlayMusicViewController",UIImageMake(@"icon_grid_textField"),
                                         nil];
 }
 
@@ -52,6 +56,10 @@
 
     }else if([title isEqualToString:@"FSPselfAdaptViewController"]) {
         viewController = [[FSPselfAdaptViewController alloc] init];
+    }else if([title isEqualToString:@"SEMIBarcodeScannerViewController"]) {
+        viewController = [[SEMIBarcodeScannerViewController alloc] init];
+    }else if([title isEqualToString:@"SEMIPlayMusicViewController"]) {
+        viewController = [[SEMIPlayMusicViewController alloc] init];
     }
     viewController.title = title;
     [self.navigationController pushViewController:viewController animated:YES];

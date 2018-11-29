@@ -204,5 +204,37 @@
             landmarkType = "2">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "reviewKnowleage/Tools/Foundation(&#x5c01;&#x88c5;&#x4e00;&#x4e9b;&#x5e38;&#x7528;&#x7684;&#x65b9;&#x6cd5;)/Model(&#x6b4c;&#x8bcd;&#x89e3;&#x6790;)/FSPLrcModel.m"
+            timestampString = "565175196.903605"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "+parserLyricWithFileName:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "reviewKnowleage/Tools/Foundation(&#x5c01;&#x88c5;&#x4e00;&#x4e9b;&#x5e38;&#x7528;&#x7684;&#x65b9;&#x6cd5;)/Model(&#x6b4c;&#x8bcd;&#x89e3;&#x6790;)/FSPLrcModel.m"
+            timestampString = "565175232.2064199"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "+parserLyricWithFileName:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

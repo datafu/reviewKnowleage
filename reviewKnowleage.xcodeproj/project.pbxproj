@@ -21,6 +21,29 @@
 		BC1E48BA21759C3B001467B7 /* QDCommonUI.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1E48B921759C3B001467B7 /* QDCommonUI.m */; };
 		BC234CEC217D71D30010DA39 /* UIColor+FF.m in Sources */ = {isa = PBXBuildFile; fileRef = BC234CEB217D71D20010DA39 /* UIColor+FF.m */; };
 		BC234CEF217DA1DC0010DA39 /* UIButton+FF.m in Sources */ = {isa = PBXBuildFile; fileRef = BC234CEE217DA1DC0010DA39 /* UIButton+FF.m */; };
+		BC2423C821AEED6600D0E572 /* LBXPermissionMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2423B221AEED6600D0E572 /* LBXPermissionMicrophone.m */; };
+		BC2423C921AEED6600D0E572 /* LBXPermissionNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2423B321AEED6600D0E572 /* LBXPermissionNetwork.m */; };
+		BC2423CA21AEED6600D0E572 /* LBXPermissionCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2423B421AEED6600D0E572 /* LBXPermissionCalendar.m */; };
+		BC2423CB21AEED6600D0E572 /* LBXPermissionReminders.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2423B921AEED6600D0E572 /* LBXPermissionReminders.m */; };
+		BC2423CC21AEED6600D0E572 /* LBXPermissionHealth.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2423BA21AEED6600D0E572 /* LBXPermissionHealth.m */; };
+		BC2423CD21AEED6600D0E572 /* LBXPermissionSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2423BB21AEED6600D0E572 /* LBXPermissionSetting.m */; };
+		BC2423CE21AEED6600D0E572 /* LBXPermissionPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2423BC21AEED6600D0E572 /* LBXPermissionPhotos.m */; };
+		BC2423CF21AEED6600D0E572 /* LBXPermissionLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2423C021AEED6600D0E572 /* LBXPermissionLocation.m */; };
+		BC2423D021AEED6600D0E572 /* LBXPermissionContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2423C121AEED6600D0E572 /* LBXPermissionContacts.m */; };
+		BC2423D121AEED6600D0E572 /* LBXPermissionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2423C221AEED6600D0E572 /* LBXPermissionCamera.m */; };
+		BC2423D221AEED6600D0E572 /* LBXPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2423C321AEED6600D0E572 /* LBXPermission.m */; };
+		BC2423D621AEEDA400D0E572 /* SEMIBarcodeScannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC2423D421AEEDA400D0E572 /* SEMIBarcodeScannerViewController.xib */; };
+		BC2423D721AEEDA400D0E572 /* SEMIBarcodeScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2423D521AEEDA400D0E572 /* SEMIBarcodeScannerViewController.m */; };
+		BC2423D921AEF0EC00D0E572 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC2423D821AEF0EB00D0E572 /* Info.plist */; };
+		BC2423DC21AF692000D0E572 /* QQLBXScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2423DB21AF692000D0E572 /* QQLBXScanViewController.m */; };
+		BC2423E821AFC97400D0E572 /* FSPLrcModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2423E721AFC97400D0E572 /* FSPLrcModel.m */; };
+		BC2423F421AFCD5400D0E572 /* FSPSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2423EF21AFCD5400D0E572 /* FSPSliderView.m */; };
+		BC2423F521AFCD5400D0E572 /* FSPColorLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2423F021AFCD5400D0E572 /* FSPColorLabel.m */; };
+		BC2423F621AFCD5400D0E572 /* FSPLyricView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2423F121AFCD5400D0E572 /* FSPLyricView.m */; };
+		BC2423FF21AFCEB300D0E572 /* SEMIPlayMusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC2423FC21AFCEB300D0E572 /* SEMIPlayMusicViewController.xib */; };
+		BC24240021AFCEB300D0E572 /* SEMIPlayMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2423FD21AFCEB300D0E572 /* SEMIPlayMusicViewController.m */; };
+		BC24241321AFE1F900D0E572 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = BC24241221AFE1F900D0E572 /* data.txt */; };
+		BC24241721AFE33D00D0E572 /* NSDateFormatter+FSPNSDateShared.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24241621AFE33D00D0E572 /* NSDateFormatter+FSPNSDateShared.m */; };
 		BC5A3E0B21776C0D0070BD6B /* QDNormalButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5A3E0A21776C0D0070BD6B /* QDNormalButtonViewController.m */; };
 		BC670D0B2176F20300E41CDB /* QDButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC670D0A2176F20300E41CDB /* QDButtonViewController.m */; };
 		BC670D0F2176F32100E41CDB /* QDGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC670D0D2176F32100E41CDB /* QDGridViewController.m */; };
@@ -107,6 +130,48 @@
 		BC234CEB217D71D20010DA39 /* UIColor+FF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FF.m"; sourceTree = "<group>"; };
 		BC234CED217DA1DC0010DA39 /* UIButton+FF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+FF.h"; sourceTree = "<group>"; };
 		BC234CEE217DA1DC0010DA39 /* UIButton+FF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FF.m"; sourceTree = "<group>"; };
+		BC2423B221AEED6600D0E572 /* LBXPermissionMicrophone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionMicrophone.m; sourceTree = "<group>"; };
+		BC2423B321AEED6600D0E572 /* LBXPermissionNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionNetwork.m; sourceTree = "<group>"; };
+		BC2423B421AEED6600D0E572 /* LBXPermissionCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionCalendar.m; sourceTree = "<group>"; };
+		BC2423B521AEED6600D0E572 /* LBXPermissionLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionLocation.h; sourceTree = "<group>"; };
+		BC2423B621AEED6600D0E572 /* LBXPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermission.h; sourceTree = "<group>"; };
+		BC2423B721AEED6600D0E572 /* LBXPermissionCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionCamera.h; sourceTree = "<group>"; };
+		BC2423B821AEED6600D0E572 /* LBXPermissionContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionContacts.h; sourceTree = "<group>"; };
+		BC2423B921AEED6600D0E572 /* LBXPermissionReminders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionReminders.m; sourceTree = "<group>"; };
+		BC2423BA21AEED6600D0E572 /* LBXPermissionHealth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionHealth.m; sourceTree = "<group>"; };
+		BC2423BB21AEED6600D0E572 /* LBXPermissionSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionSetting.m; sourceTree = "<group>"; };
+		BC2423BC21AEED6600D0E572 /* LBXPermissionPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionPhotos.m; sourceTree = "<group>"; };
+		BC2423BD21AEED6600D0E572 /* LBXPermissionCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionCalendar.h; sourceTree = "<group>"; };
+		BC2423BE21AEED6600D0E572 /* LBXPermissionNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionNetwork.h; sourceTree = "<group>"; };
+		BC2423BF21AEED6600D0E572 /* LBXPermissionMicrophone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionMicrophone.h; sourceTree = "<group>"; };
+		BC2423C021AEED6600D0E572 /* LBXPermissionLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionLocation.m; sourceTree = "<group>"; };
+		BC2423C121AEED6600D0E572 /* LBXPermissionContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionContacts.m; sourceTree = "<group>"; };
+		BC2423C221AEED6600D0E572 /* LBXPermissionCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionCamera.m; sourceTree = "<group>"; };
+		BC2423C321AEED6600D0E572 /* LBXPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermission.m; sourceTree = "<group>"; };
+		BC2423C421AEED6600D0E572 /* LBXPermissionPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionPhotos.h; sourceTree = "<group>"; };
+		BC2423C521AEED6600D0E572 /* LBXPermissionSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionSetting.h; sourceTree = "<group>"; };
+		BC2423C621AEED6600D0E572 /* LBXPermissionHealth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionHealth.h; sourceTree = "<group>"; };
+		BC2423C721AEED6600D0E572 /* LBXPermissionReminders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionReminders.h; sourceTree = "<group>"; };
+		BC2423D321AEEDA400D0E572 /* SEMIBarcodeScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEMIBarcodeScannerViewController.h; sourceTree = "<group>"; };
+		BC2423D421AEEDA400D0E572 /* SEMIBarcodeScannerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEMIBarcodeScannerViewController.xib; sourceTree = "<group>"; };
+		BC2423D521AEEDA400D0E572 /* SEMIBarcodeScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEMIBarcodeScannerViewController.m; sourceTree = "<group>"; };
+		BC2423D821AEF0EB00D0E572 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2423DA21AF692000D0E572 /* QQLBXScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQLBXScanViewController.h; sourceTree = "<group>"; };
+		BC2423DB21AF692000D0E572 /* QQLBXScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQLBXScanViewController.m; sourceTree = "<group>"; };
+		BC2423E621AFC97400D0E572 /* FSPLrcModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPLrcModel.h; sourceTree = "<group>"; };
+		BC2423E721AFC97400D0E572 /* FSPLrcModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPLrcModel.m; sourceTree = "<group>"; };
+		BC2423EE21AFCD5400D0E572 /* FSPLyricView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPLyricView.h; sourceTree = "<group>"; };
+		BC2423EF21AFCD5400D0E572 /* FSPSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPSliderView.m; sourceTree = "<group>"; };
+		BC2423F021AFCD5400D0E572 /* FSPColorLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPColorLabel.m; sourceTree = "<group>"; };
+		BC2423F121AFCD5400D0E572 /* FSPLyricView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPLyricView.m; sourceTree = "<group>"; };
+		BC2423F221AFCD5400D0E572 /* FSPSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPSliderView.h; sourceTree = "<group>"; };
+		BC2423F321AFCD5400D0E572 /* FSPColorLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPColorLabel.h; sourceTree = "<group>"; };
+		BC2423FC21AFCEB300D0E572 /* SEMIPlayMusicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEMIPlayMusicViewController.xib; sourceTree = "<group>"; };
+		BC2423FD21AFCEB300D0E572 /* SEMIPlayMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEMIPlayMusicViewController.m; sourceTree = "<group>"; };
+		BC2423FE21AFCEB300D0E572 /* SEMIPlayMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEMIPlayMusicViewController.h; sourceTree = "<group>"; };
+		BC24241221AFE1F900D0E572 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
+		BC24241521AFE33D00D0E572 /* NSDateFormatter+FSPNSDateShared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+FSPNSDateShared.h"; sourceTree = "<group>"; };
+		BC24241621AFE33D00D0E572 /* NSDateFormatter+FSPNSDateShared.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+FSPNSDateShared.m"; sourceTree = "<group>"; };
 		BC5A3E0921776C0D0070BD6B /* QDNormalButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDNormalButtonViewController.h; sourceTree = "<group>"; };
 		BC5A3E0A21776C0D0070BD6B /* QDNormalButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDNormalButtonViewController.m; sourceTree = "<group>"; };
 		BC670D092176F20300E41CDB /* QDButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDButtonViewController.h; sourceTree = "<group>"; };
@@ -265,6 +330,8 @@
 		BC1399FB219E8CDF00F3D2CA /* Foundation(封装一些常用的方法) */ = {
 			isa = PBXGroup;
 			children = (
+				BC2423E521AFC96200D0E572 /* Model(歌词解析) */,
+				BC2423B121AEED6600D0E572 /* Permissions(权限判断类) */,
 				BC1399FC219E8CDF00F3D2CA /* UITextFieldInputJuageTools(输入判断工具类) */,
 			);
 			path = "Foundation(封装一些常用的方法)";
@@ -282,6 +349,7 @@
 		BC139A04219EDC7500F3D2CA /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				BC24241421AFE31600D0E572 /* NSDateFormatter */,
 				BC139A0D219EE6A700F3D2CA /* NSDate */,
 				BC139A05219EDC7500F3D2CA /* NSNull */,
 				BC139A08219EDC7500F3D2CA /* NSString */,
@@ -319,6 +387,8 @@
 		BC1E48A22174AF2A001467B7 /* uikit */ = {
 			isa = PBXGroup;
 			children = (
+				BC2423DE21AFC2CA00D0E572 /* Lyric(歌词渐变效果) */,
+				BC2423B021AEEC7100D0E572 /*  QRCode(二维码) */,
 				BC1399DC219E4E6000F3D2CA /* uikit-demo(使用到的技术点收集) */,
 				BC234CF0217DAF2A0010DA39 /* DialogView(提示类弹窗) */,
 				BC1E48A52174B1FA001467B7 /* qmui */,
@@ -392,6 +462,106 @@
 			path = "DialogView(提示类弹窗)";
 			sourceTree = "<group>";
 		};
+		BC2423B021AEEC7100D0E572 /*  QRCode(二维码) */ = {
+			isa = PBXGroup;
+			children = (
+				BC2423DA21AF692000D0E572 /* QQLBXScanViewController.h */,
+				BC2423DB21AF692000D0E572 /* QQLBXScanViewController.m */,
+				BC2423D321AEEDA400D0E572 /* SEMIBarcodeScannerViewController.h */,
+				BC2423D521AEEDA400D0E572 /* SEMIBarcodeScannerViewController.m */,
+				BC2423D421AEEDA400D0E572 /* SEMIBarcodeScannerViewController.xib */,
+			);
+			path = " QRCode(二维码)";
+			sourceTree = "<group>";
+		};
+		BC2423B121AEED6600D0E572 /* Permissions(权限判断类) */ = {
+			isa = PBXGroup;
+			children = (
+				BC2423B221AEED6600D0E572 /* LBXPermissionMicrophone.m */,
+				BC2423B321AEED6600D0E572 /* LBXPermissionNetwork.m */,
+				BC2423B421AEED6600D0E572 /* LBXPermissionCalendar.m */,
+				BC2423B521AEED6600D0E572 /* LBXPermissionLocation.h */,
+				BC2423B621AEED6600D0E572 /* LBXPermission.h */,
+				BC2423B721AEED6600D0E572 /* LBXPermissionCamera.h */,
+				BC2423B821AEED6600D0E572 /* LBXPermissionContacts.h */,
+				BC2423B921AEED6600D0E572 /* LBXPermissionReminders.m */,
+				BC2423BA21AEED6600D0E572 /* LBXPermissionHealth.m */,
+				BC2423BB21AEED6600D0E572 /* LBXPermissionSetting.m */,
+				BC2423BC21AEED6600D0E572 /* LBXPermissionPhotos.m */,
+				BC2423BD21AEED6600D0E572 /* LBXPermissionCalendar.h */,
+				BC2423BE21AEED6600D0E572 /* LBXPermissionNetwork.h */,
+				BC2423BF21AEED6600D0E572 /* LBXPermissionMicrophone.h */,
+				BC2423C021AEED6600D0E572 /* LBXPermissionLocation.m */,
+				BC2423C121AEED6600D0E572 /* LBXPermissionContacts.m */,
+				BC2423C221AEED6600D0E572 /* LBXPermissionCamera.m */,
+				BC2423C321AEED6600D0E572 /* LBXPermission.m */,
+				BC2423C421AEED6600D0E572 /* LBXPermissionPhotos.h */,
+				BC2423C521AEED6600D0E572 /* LBXPermissionSetting.h */,
+				BC2423C621AEED6600D0E572 /* LBXPermissionHealth.h */,
+				BC2423C721AEED6600D0E572 /* LBXPermissionReminders.h */,
+			);
+			path = "Permissions(权限判断类)";
+			sourceTree = "<group>";
+		};
+		BC2423DE21AFC2CA00D0E572 /* Lyric(歌词渐变效果) */ = {
+			isa = PBXGroup;
+			children = (
+				BC24240121AFD0BB00D0E572 /* Model */,
+				BC2423EC21AFCD5400D0E572 /* Controller */,
+				BC2423ED21AFCD5400D0E572 /* view */,
+			);
+			path = "Lyric(歌词渐变效果)";
+			sourceTree = "<group>";
+		};
+		BC2423E521AFC96200D0E572 /* Model(歌词解析) */ = {
+			isa = PBXGroup;
+			children = (
+				BC2423E621AFC97400D0E572 /* FSPLrcModel.h */,
+				BC2423E721AFC97400D0E572 /* FSPLrcModel.m */,
+			);
+			path = "Model(歌词解析)";
+			sourceTree = "<group>";
+		};
+		BC2423EC21AFCD5400D0E572 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC2423FE21AFCEB300D0E572 /* SEMIPlayMusicViewController.h */,
+				BC2423FD21AFCEB300D0E572 /* SEMIPlayMusicViewController.m */,
+				BC2423FC21AFCEB300D0E572 /* SEMIPlayMusicViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC2423ED21AFCD5400D0E572 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BC2423EE21AFCD5400D0E572 /* FSPLyricView.h */,
+				BC2423EF21AFCD5400D0E572 /* FSPSliderView.m */,
+				BC2423F021AFCD5400D0E572 /* FSPColorLabel.m */,
+				BC2423F121AFCD5400D0E572 /* FSPLyricView.m */,
+				BC2423F221AFCD5400D0E572 /* FSPSliderView.h */,
+				BC2423F321AFCD5400D0E572 /* FSPColorLabel.h */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		BC24240121AFD0BB00D0E572 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC24241221AFE1F900D0E572 /* data.txt */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC24241421AFE31600D0E572 /* NSDateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				BC24241521AFE33D00D0E572 /* NSDateFormatter+FSPNSDateShared.h */,
+				BC24241621AFE33D00D0E572 /* NSDateFormatter+FSPNSDateShared.m */,
+			);
+			path = NSDateFormatter;
+			sourceTree = "<group>";
+		};
 		BC670D0C2176F32100E41CDB /* QDGridViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -455,6 +625,7 @@
 		BC7326EA216C6AC400C7C59E /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				BC2423D821AEF0EB00D0E572 /* Info.plist */,
 				BC88E26B21A54C2D002AFC3D /* AppDelegate */,
 				BC7326F6216C6AC400C7C59E /* Base.lproj */,
 				BC7326ED216C6AC400C7C59E /* main.m */,
@@ -862,8 +1033,12 @@
 			files = (
 				BC1399F8219E879200F3D2CA /* FSPselfAdaptViewController.xib in Resources */,
 				BC9731B2217820B900FF126D /* Localizable.strings in Resources */,
+				BC2423D921AEF0EC00D0E572 /* Info.plist in Resources */,
 				BC96279421834D6D0087ABBC /* FSPViewController.xib in Resources */,
 				BC732703216C6AC500C7C59E /* Main.storyboard in Resources */,
+				BC2423D621AEEDA400D0E572 /* SEMIBarcodeScannerViewController.xib in Resources */,
+				BC24241321AFE1F900D0E572 /* data.txt in Resources */,
+				BC2423FF21AFCEB300D0E572 /* SEMIPlayMusicViewController.xib in Resources */,
 				BC1399F4219E7E3A00F3D2CA /* FSPviolationTableViewViewCell.xib in Resources */,
 				BC732702216C6AC500C7C59E /* LaunchScreen.storyboard in Resources */,
 				BC732701216C6AC500C7C59E /* Assets.xcassets in Resources */,
@@ -932,6 +1107,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-reviewKnowleage/Pods-reviewKnowleage-resources.sh",
+				"${PODS_ROOT}/LBXScan/LBXScan/UI/CodeScan.bundle",
 				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Crash/UserInterface/LLCrashCell.xib",
 				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Crash/UserInterface/LLCrashContentCell.xib",
 				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/General/UserInterface/Controls/LLFilterView/LLFilterLabelCell.xib",
@@ -943,11 +1119,16 @@
 				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Sandbox/UserInterface/LLSandboxCell.xib",
 				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/General/UserInterface/Resources/LLDebugTool.bundle",
 				"${PODS_ROOT}/QMUIKit/QMUIKit/QMUIResources/QMUIResources.bundle",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-back.png",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-help.html",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-helpicons.png",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-samples.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CodeScan.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLCrashCell.nib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLCrashContentCell.nib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLFilterLabelCell.nib",
@@ -959,6 +1140,10 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLSandboxCell.nib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLDebugTool.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QMUIResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-back.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-help.html",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-helpicons.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-samples.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -990,28 +1175,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC2423DC21AF692000D0E572 /* QQLBXScanViewController.m in Sources */,
+				BC2423E821AFC97400D0E572 /* FSPLrcModel.m in Sources */,
 				BC139A09219EDC7500F3D2CA /* NSNull+OVNatural.m in Sources */,
 				BC670D0B2176F20300E41CDB /* QDButtonViewController.m in Sources */,
 				BC139A0C219EDEB200F3D2CA /* NSString+FSP.m in Sources */,
 				BC234CEF217DA1DC0010DA39 /* UIButton+FF.m in Sources */,
+				BC2423CD21AEED6600D0E572 /* LBXPermissionSetting.m in Sources */,
 				BC9731BC21783F7E00FF126D /* QDGhostButtonViewController.m in Sources */,
+				BC2423C821AEED6600D0E572 /* LBXPermissionMicrophone.m in Sources */,
 				BCDCD30621796E9C007D9682 /* BaseCommonListViewController.m in Sources */,
+				BC2423D721AEEDA400D0E572 /* SEMIBarcodeScannerViewController.m in Sources */,
 				BC9731C22178727D00FF126D /* QDTabBarItemViewController.m in Sources */,
 				BC1399FF219E8CFA00F3D2CA /* FSPUITextFieldInputJuageTools.m in Sources */,
 				BCE15980217F04A300861B64 /* FFDialogTextFieldViewController.m in Sources */,
 				BCDCD30F21796E9C007D9682 /* BaseTabBarViewController.m in Sources */,
+				BC2423CE21AEED6600D0E572 /* LBXPermissionPhotos.m in Sources */,
 				BC9731B92178276500FF126D /* QDLinkButtonViewController.m in Sources */,
+				BC2423F421AFCD5400D0E572 /* FSPSliderView.m in Sources */,
 				BC234CEC217D71D30010DA39 /* UIColor+FF.m in Sources */,
+				BC2423CB21AEED6600D0E572 /* LBXPermissionReminders.m in Sources */,
+				BC2423D021AEED6600D0E572 /* LBXPermissionContacts.m in Sources */,
 				BC1E48B12174C57C001467B7 /* QDUIHelper.m in Sources */,
 				BCDCD30721796E9C007D9682 /* BaseCommonTableViewController.m in Sources */,
 				BCDCD346217B1869007D9682 /* SettingViewController.m in Sources */,
 				BCDCD30E21796E9C007D9682 /* BaseNavigationController.m in Sources */,
 				BC9731C52178733A00FF126D /* QDToolBarButtonViewController.m in Sources */,
 				BC5A3E0B21776C0D0070BD6B /* QDNormalButtonViewController.m in Sources */,
+				BC2423F521AFCD5400D0E572 /* FSPColorLabel.m in Sources */,
+				BC2423CA21AEED6600D0E572 /* LBXPermissionCalendar.m in Sources */,
 				BCDCD30521796E9C007D9682 /* BaseCommonViewController.m in Sources */,
+				BC2423F621AFCD5400D0E572 /* FSPLyricView.m in Sources */,
+				BC2423D221AEED6600D0E572 /* LBXPermission.m in Sources */,
 				BCDF26BC217B738F00D3F3BF /* FFDialogViewController.m in Sources */,
 				BC1399DB219DA72600F3D2CA /* FSPTextFieldViewController.m in Sources */,
 				BC1399F9219E879200F3D2CA /* FSPselfAdaptViewController.m in Sources */,
+				BC24241721AFE33D00D0E572 /* NSDateFormatter+FSPNSDateShared.m in Sources */,
+				BC2423C921AEED6600D0E572 /* LBXPermissionNetwork.m in Sources */,
+				BC2423CF21AEED6600D0E572 /* LBXPermissionLocation.m in Sources */,
 				BCC7EAA32175FCA50096E587 /* QDThemeManager.m in Sources */,
 				BC1E48BA21759C3B001467B7 /* QDCommonUI.m in Sources */,
 				BC88E27521A54CE6002AFC3D /* AppDelegate+FSPJPush.m in Sources */,
@@ -1020,9 +1221,12 @@
 				BC96279321834D6D0087ABBC /* FSPViewController.m in Sources */,
 				BCC7EAA02175FC800096E587 /* QMUIConfigurationTemplate.m in Sources */,
 				BC670D0F2176F32100E41CDB /* QDGridViewController.m in Sources */,
+				BC24240021AFCEB300D0E572 /* SEMIPlayMusicViewController.m in Sources */,
 				BC9731BF21786E0000FF126D /* QDNavigationButtonViewController.m in Sources */,
+				BC2423D121AEED6600D0E572 /* LBXPermissionCamera.m in Sources */,
 				BC96278F2183362B0087ABBC /* FSPTextField.m in Sources */,
 				BC7326FE216C6AC500C7C59E /* main.m in Sources */,
+				BC2423CC21AEED6600D0E572 /* LBXPermissionHealth.m in Sources */,
 				BCDCD30921796E9C007D9682 /* QDCommonGridViewController.m in Sources */,
 				BCDCD349217B18C7007D9682 /* HeadImgTableViewCell.m in Sources */,
 				BC139A10219EE6B700F3D2CA /* NSDate+FSP.m in Sources */,

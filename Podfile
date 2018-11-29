@@ -10,6 +10,12 @@ target 'reviewKnowleage' do
     pod 'LLDebugTool'
     pod 'YYKit'
     pod 'JPush'
+    pod 'Masonry'
+    pod 'LBXScan/LBXNative','~> 2.3'
+    pod 'LBXScan/LBXZXing','~> 2.3'
+    pod 'LBXScan/LBXZBar','~> 2.3'
+    pod 'LBXScan/UI','~> 2.3'
+    
   target 'reviewKnowleageTests' do
     inherit! :search_paths
     # Pods for testing

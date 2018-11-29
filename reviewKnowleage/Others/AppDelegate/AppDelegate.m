@@ -19,12 +19,17 @@
 @implementation AppDelegate
 
 
+- (BaseNavigationController *)extracted:(QDGridViewController *)uikitViewController {
+    BaseNavigationController * nav = [[ BaseNavigationController alloc] initWithRootViewController:uikitViewController];
+    return nav;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     QDGridViewController *uikitViewController = [[QDGridViewController alloc] init];
     uikitViewController.hidesBottomBarWhenPushed = NO;
-    BaseNavigationController * nav = [[ BaseNavigationController alloc] initWithRootViewController:uikitViewController];
+    BaseNavigationController * nav = [self extracted:uikitViewController];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     [self createTabBarController];

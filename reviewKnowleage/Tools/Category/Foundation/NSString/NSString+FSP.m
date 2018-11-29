@@ -11,7 +11,7 @@
 @implementation NSString (FSP)
 
 //时间戳转换为时间方法
-- (NSString *)dateStringWithTimeStamp:(NSString *)formatString;
+- (NSString *)dateStringWithTimeStamp:(NSString *)formatString{
     NSString *dateString;
     NSDate *tmpDate = [NSDate dateWithTimeIntervalSince1970:[self floatValue]];
     NSDateFormatter *format=[[NSDateFormatter alloc] init];

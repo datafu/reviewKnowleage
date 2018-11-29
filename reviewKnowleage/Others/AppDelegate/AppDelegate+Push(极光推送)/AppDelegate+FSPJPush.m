@@ -271,6 +271,7 @@ static NSString * kAssociatedObjectKey_is_loginSuccess;
 /// 显示消息中心界面 保证当前页面在首页
 - (void) pushSEMIMessageDetailViewController {
     
+}
 //    QMUINavigationController* naVc = (QMUINavigationController*) self.window.rootViewController;
     //    LLog_Alert_Event(@"点击推送消息",[NSString stringWithFormat:@"%@",self.pushMessage]);
     
