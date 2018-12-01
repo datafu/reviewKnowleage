@@ -44,6 +44,12 @@
 		BC24240021AFCEB300D0E572 /* SEMIPlayMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2423FD21AFCEB300D0E572 /* SEMIPlayMusicViewController.m */; };
 		BC24241321AFE1F900D0E572 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = BC24241221AFE1F900D0E572 /* data.txt */; };
 		BC24241721AFE33D00D0E572 /* NSDateFormatter+FSPNSDateShared.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24241621AFE33D00D0E572 /* NSDateFormatter+FSPNSDateShared.m */; };
+		BC24241B21B129DB00D0E572 /* FSPTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24241A21B129DB00D0E572 /* FSPTimePickerView.m */; };
+		BC24241D21B12A0F00D0E572 /* FSPTimePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC24241C21B12A0F00D0E572 /* FSPTimePickerView.xib */; };
+		BC24242021B12BDD00D0E572 /* FSPPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24241F21B12BDD00D0E572 /* FSPPickerView.m */; };
+		BC24242421B1325100D0E572 /* FSPTimeDataTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24242321B1325100D0E572 /* FSPTimeDataTools.m */; };
+		BC24242821B135C200D0E572 /* FSPTimePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24242621B135C200D0E572 /* FSPTimePickerViewController.m */; };
+		BC24242921B135C200D0E572 /* FSPTimePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC24242721B135C200D0E572 /* FSPTimePickerViewController.xib */; };
 		BC5A3E0B21776C0D0070BD6B /* QDNormalButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5A3E0A21776C0D0070BD6B /* QDNormalButtonViewController.m */; };
 		BC670D0B2176F20300E41CDB /* QDButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC670D0A2176F20300E41CDB /* QDButtonViewController.m */; };
 		BC670D0F2176F32100E41CDB /* QDGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC670D0D2176F32100E41CDB /* QDGridViewController.m */; };
@@ -172,6 +178,16 @@
 		BC24241221AFE1F900D0E572 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
 		BC24241521AFE33D00D0E572 /* NSDateFormatter+FSPNSDateShared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+FSPNSDateShared.h"; sourceTree = "<group>"; };
 		BC24241621AFE33D00D0E572 /* NSDateFormatter+FSPNSDateShared.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+FSPNSDateShared.m"; sourceTree = "<group>"; };
+		BC24241921B129DB00D0E572 /* FSPTimePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPTimePickerView.h; sourceTree = "<group>"; };
+		BC24241A21B129DB00D0E572 /* FSPTimePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPTimePickerView.m; sourceTree = "<group>"; };
+		BC24241C21B12A0F00D0E572 /* FSPTimePickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSPTimePickerView.xib; sourceTree = "<group>"; };
+		BC24241E21B12BDD00D0E572 /* FSPPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPPickerView.h; sourceTree = "<group>"; };
+		BC24241F21B12BDD00D0E572 /* FSPPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPPickerView.m; sourceTree = "<group>"; };
+		BC24242221B1325100D0E572 /* FSPTimeDataTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPTimeDataTools.h; sourceTree = "<group>"; };
+		BC24242321B1325100D0E572 /* FSPTimeDataTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPTimeDataTools.m; sourceTree = "<group>"; };
+		BC24242521B135C200D0E572 /* FSPTimePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPTimePickerViewController.h; sourceTree = "<group>"; };
+		BC24242621B135C200D0E572 /* FSPTimePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPTimePickerViewController.m; sourceTree = "<group>"; };
+		BC24242721B135C200D0E572 /* FSPTimePickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSPTimePickerViewController.xib; sourceTree = "<group>"; };
 		BC5A3E0921776C0D0070BD6B /* QDNormalButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDNormalButtonViewController.h; sourceTree = "<group>"; };
 		BC5A3E0A21776C0D0070BD6B /* QDNormalButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDNormalButtonViewController.m; sourceTree = "<group>"; };
 		BC670D092176F20300E41CDB /* QDButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDButtonViewController.h; sourceTree = "<group>"; };
@@ -330,6 +346,7 @@
 		BC1399FB219E8CDF00F3D2CA /* Foundation(封装一些常用的方法) */ = {
 			isa = PBXGroup;
 			children = (
+				BC24242121B1322D00D0E572 /* TimeDataTools(时间处理工具) */,
 				BC2423E521AFC96200D0E572 /* Model(歌词解析) */,
 				BC2423B121AEED6600D0E572 /* Permissions(权限判断类) */,
 				BC1399FC219E8CDF00F3D2CA /* UITextFieldInputJuageTools(输入判断工具类) */,
@@ -387,6 +404,7 @@
 		BC1E48A22174AF2A001467B7 /* uikit */ = {
 			isa = PBXGroup;
 			children = (
+				BC24241821B1299F00D0E572 /* TimePickerView(时间管理器) */,
 				BC2423DE21AFC2CA00D0E572 /* Lyric(歌词渐变效果) */,
 				BC2423B021AEEC7100D0E572 /*  QRCode(二维码) */,
 				BC1399DC219E4E6000F3D2CA /* uikit-demo(使用到的技术点收集) */,
@@ -560,6 +578,30 @@
 				BC24241621AFE33D00D0E572 /* NSDateFormatter+FSPNSDateShared.m */,
 			);
 			path = NSDateFormatter;
+			sourceTree = "<group>";
+		};
+		BC24241821B1299F00D0E572 /* TimePickerView(时间管理器) */ = {
+			isa = PBXGroup;
+			children = (
+				BC24241921B129DB00D0E572 /* FSPTimePickerView.h */,
+				BC24241A21B129DB00D0E572 /* FSPTimePickerView.m */,
+				BC24241C21B12A0F00D0E572 /* FSPTimePickerView.xib */,
+				BC24241E21B12BDD00D0E572 /* FSPPickerView.h */,
+				BC24241F21B12BDD00D0E572 /* FSPPickerView.m */,
+				BC24242521B135C200D0E572 /* FSPTimePickerViewController.h */,
+				BC24242621B135C200D0E572 /* FSPTimePickerViewController.m */,
+				BC24242721B135C200D0E572 /* FSPTimePickerViewController.xib */,
+			);
+			path = "TimePickerView(时间管理器)";
+			sourceTree = "<group>";
+		};
+		BC24242121B1322D00D0E572 /* TimeDataTools(时间处理工具) */ = {
+			isa = PBXGroup;
+			children = (
+				BC24242221B1325100D0E572 /* FSPTimeDataTools.h */,
+				BC24242321B1325100D0E572 /* FSPTimeDataTools.m */,
+			);
+			path = "TimeDataTools(时间处理工具)";
 			sourceTree = "<group>";
 		};
 		BC670D0C2176F32100E41CDB /* QDGridViewController */ = {
@@ -1034,6 +1076,7 @@
 				BC1399F8219E879200F3D2CA /* FSPselfAdaptViewController.xib in Resources */,
 				BC9731B2217820B900FF126D /* Localizable.strings in Resources */,
 				BC2423D921AEF0EC00D0E572 /* Info.plist in Resources */,
+				BC24242921B135C200D0E572 /* FSPTimePickerViewController.xib in Resources */,
 				BC96279421834D6D0087ABBC /* FSPViewController.xib in Resources */,
 				BC732703216C6AC500C7C59E /* Main.storyboard in Resources */,
 				BC2423D621AEEDA400D0E572 /* SEMIBarcodeScannerViewController.xib in Resources */,
@@ -1042,6 +1085,7 @@
 				BC1399F4219E7E3A00F3D2CA /* FSPviolationTableViewViewCell.xib in Resources */,
 				BC732702216C6AC500C7C59E /* LaunchScreen.storyboard in Resources */,
 				BC732701216C6AC500C7C59E /* Assets.xcassets in Resources */,
+				BC24241D21B12A0F00D0E572 /* FSPTimePickerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1183,10 +1227,12 @@
 				BC234CEF217DA1DC0010DA39 /* UIButton+FF.m in Sources */,
 				BC2423CD21AEED6600D0E572 /* LBXPermissionSetting.m in Sources */,
 				BC9731BC21783F7E00FF126D /* QDGhostButtonViewController.m in Sources */,
+				BC24242021B12BDD00D0E572 /* FSPPickerView.m in Sources */,
 				BC2423C821AEED6600D0E572 /* LBXPermissionMicrophone.m in Sources */,
 				BCDCD30621796E9C007D9682 /* BaseCommonListViewController.m in Sources */,
 				BC2423D721AEEDA400D0E572 /* SEMIBarcodeScannerViewController.m in Sources */,
 				BC9731C22178727D00FF126D /* QDTabBarItemViewController.m in Sources */,
+				BC24242821B135C200D0E572 /* FSPTimePickerViewController.m in Sources */,
 				BC1399FF219E8CFA00F3D2CA /* FSPUITextFieldInputJuageTools.m in Sources */,
 				BCE15980217F04A300861B64 /* FFDialogTextFieldViewController.m in Sources */,
 				BCDCD30F21796E9C007D9682 /* BaseTabBarViewController.m in Sources */,
@@ -1202,6 +1248,7 @@
 				BCDCD30E21796E9C007D9682 /* BaseNavigationController.m in Sources */,
 				BC9731C52178733A00FF126D /* QDToolBarButtonViewController.m in Sources */,
 				BC5A3E0B21776C0D0070BD6B /* QDNormalButtonViewController.m in Sources */,
+				BC24242421B1325100D0E572 /* FSPTimeDataTools.m in Sources */,
 				BC2423F521AFCD5400D0E572 /* FSPColorLabel.m in Sources */,
 				BC2423CA21AEED6600D0E572 /* LBXPermissionCalendar.m in Sources */,
 				BCDCD30521796E9C007D9682 /* BaseCommonViewController.m in Sources */,
@@ -1215,6 +1262,7 @@
 				BC2423CF21AEED6600D0E572 /* LBXPermissionLocation.m in Sources */,
 				BCC7EAA32175FCA50096E587 /* QDThemeManager.m in Sources */,
 				BC1E48BA21759C3B001467B7 /* QDCommonUI.m in Sources */,
+				BC24241B21B129DB00D0E572 /* FSPTimePickerView.m in Sources */,
 				BC88E27521A54CE6002AFC3D /* AppDelegate+FSPJPush.m in Sources */,
 				BC88E26E21A54C2D002AFC3D /* AppDelegate.m in Sources */,
 				BC1399F3219E7E3A00F3D2CA /* FSPviolationTableViewViewCell.m in Sources */,

@@ -12,6 +12,7 @@
 #import "FSPselfAdaptViewController.h"
 #import "SEMIBarcodeScannerViewController.h"
 #import "SEMIPlayMusicViewController.h"
+#import "FSPTimePickerViewController.h"
 
 @interface QDGridViewController ()
 
@@ -42,6 +43,8 @@
                        @"FSPselfAdaptViewController",UIImageMake(@"icon_grid_textField"),
         @"SEMIBarcodeScannerViewController",UIImageMake(@"icon_grid_textField"),
         @"SEMIPlayMusicViewController",UIImageMake(@"icon_grid_textField"),
+    @"FSPTimePickerViewController",UIImageMake(@"icon_grid_textField"),
+                       
                                         nil];
 }
 
@@ -60,6 +63,8 @@
         viewController = [[SEMIBarcodeScannerViewController alloc] init];
     }else if([title isEqualToString:@"SEMIPlayMusicViewController"]) {
         viewController = [[SEMIPlayMusicViewController alloc] init];
+    }else if([title isEqualToString:@"FSPTimePickerViewController"]) {
+        viewController = [[FSPTimePickerViewController alloc] init];
     }
     viewController.title = title;
     [self.navigationController pushViewController:viewController animated:YES];
