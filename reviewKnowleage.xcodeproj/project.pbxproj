@@ -19,6 +19,9 @@
 		BC139A10219EE6B700F3D2CA /* NSDate+FSP.m in Sources */ = {isa = PBXBuildFile; fileRef = BC139A0F219EE6B700F3D2CA /* NSDate+FSP.m */; };
 		BC1E48B12174C57C001467B7 /* QDUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1E48B02174C57C001467B7 /* QDUIHelper.m */; };
 		BC1E48BA21759C3B001467B7 /* QDCommonUI.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1E48B921759C3B001467B7 /* QDCommonUI.m */; };
+		BC21D01C21B2BAFE002C245B /* FSPProgressRingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC21D01B21B2BAFE002C245B /* FSPProgressRingView.m */; };
+		BC21D02021B2BB9E002C245B /* FSPInnerOuternerProgressRingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC21D01F21B2BB9E002C245B /* FSPInnerOuternerProgressRingViewController.m */; };
+		BC21D02321B2CE7D002C245B /* FSPElectricView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC21D02221B2CE7D002C245B /* FSPElectricView.m */; };
 		BC234CEC217D71D30010DA39 /* UIColor+FF.m in Sources */ = {isa = PBXBuildFile; fileRef = BC234CEB217D71D20010DA39 /* UIColor+FF.m */; };
 		BC234CEF217DA1DC0010DA39 /* UIButton+FF.m in Sources */ = {isa = PBXBuildFile; fileRef = BC234CEE217DA1DC0010DA39 /* UIButton+FF.m */; };
 		BC2423C821AEED6600D0E572 /* LBXPermissionMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2423B221AEED6600D0E572 /* LBXPermissionMicrophone.m */; };
@@ -132,6 +135,12 @@
 		BC1E48B22174C5D9001467B7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		BC1E48B821759C3B001467B7 /* QDCommonUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDCommonUI.h; sourceTree = "<group>"; };
 		BC1E48B921759C3B001467B7 /* QDCommonUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDCommonUI.m; sourceTree = "<group>"; };
+		BC21D01A21B2BAFE002C245B /* FSPProgressRingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPProgressRingView.h; sourceTree = "<group>"; };
+		BC21D01B21B2BAFE002C245B /* FSPProgressRingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPProgressRingView.m; sourceTree = "<group>"; };
+		BC21D01E21B2BB9E002C245B /* FSPInnerOuternerProgressRingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPInnerOuternerProgressRingViewController.h; sourceTree = "<group>"; };
+		BC21D01F21B2BB9E002C245B /* FSPInnerOuternerProgressRingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPInnerOuternerProgressRingViewController.m; sourceTree = "<group>"; };
+		BC21D02121B2CE7D002C245B /* FSPElectricView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPElectricView.h; sourceTree = "<group>"; };
+		BC21D02221B2CE7D002C245B /* FSPElectricView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPElectricView.m; sourceTree = "<group>"; };
 		BC234CEA217D71D20010DA39 /* UIColor+FF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+FF.h"; sourceTree = "<group>"; };
 		BC234CEB217D71D20010DA39 /* UIColor+FF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FF.m"; sourceTree = "<group>"; };
 		BC234CED217DA1DC0010DA39 /* UIButton+FF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+FF.h"; sourceTree = "<group>"; };
@@ -404,6 +413,7 @@
 		BC1E48A22174AF2A001467B7 /* uikit */ = {
 			isa = PBXGroup;
 			children = (
+				BC21D01921B2BAE6002C245B /* progressRingView(画圆环) */,
 				BC24241821B1299F00D0E572 /* TimePickerView(时间管理器) */,
 				BC2423DE21AFC2CA00D0E572 /* Lyric(歌词渐变效果) */,
 				BC2423B021AEEC7100D0E572 /*  QRCode(二维码) */,
@@ -451,6 +461,27 @@
 				BC1E48B921759C3B001467B7 /* QDCommonUI.m */,
 			);
 			path = tools;
+			sourceTree = "<group>";
+		};
+		BC21D01921B2BAE6002C245B /* progressRingView(画圆环) */ = {
+			isa = PBXGroup;
+			children = (
+				BC21D01D21B2BB5E002C245B /* Controllers(外虚线内圆环) */,
+				BC21D01A21B2BAFE002C245B /* FSPProgressRingView.h */,
+				BC21D01B21B2BAFE002C245B /* FSPProgressRingView.m */,
+				BC21D02121B2CE7D002C245B /* FSPElectricView.h */,
+				BC21D02221B2CE7D002C245B /* FSPElectricView.m */,
+			);
+			path = "progressRingView(画圆环)";
+			sourceTree = "<group>";
+		};
+		BC21D01D21B2BB5E002C245B /* Controllers(外虚线内圆环) */ = {
+			isa = PBXGroup;
+			children = (
+				BC21D01E21B2BB9E002C245B /* FSPInnerOuternerProgressRingViewController.h */,
+				BC21D01F21B2BB9E002C245B /* FSPInnerOuternerProgressRingViewController.m */,
+			);
+			path = "Controllers(外虚线内圆环)";
 			sourceTree = "<group>";
 		};
 		BC234CE8217D71B00010DA39 /* Category */ = {
@@ -1227,6 +1258,7 @@
 				BC234CEF217DA1DC0010DA39 /* UIButton+FF.m in Sources */,
 				BC2423CD21AEED6600D0E572 /* LBXPermissionSetting.m in Sources */,
 				BC9731BC21783F7E00FF126D /* QDGhostButtonViewController.m in Sources */,
+				BC21D01C21B2BAFE002C245B /* FSPProgressRingView.m in Sources */,
 				BC24242021B12BDD00D0E572 /* FSPPickerView.m in Sources */,
 				BC2423C821AEED6600D0E572 /* LBXPermissionMicrophone.m in Sources */,
 				BCDCD30621796E9C007D9682 /* BaseCommonListViewController.m in Sources */,
@@ -1234,6 +1266,7 @@
 				BC9731C22178727D00FF126D /* QDTabBarItemViewController.m in Sources */,
 				BC24242821B135C200D0E572 /* FSPTimePickerViewController.m in Sources */,
 				BC1399FF219E8CFA00F3D2CA /* FSPUITextFieldInputJuageTools.m in Sources */,
+				BC21D02021B2BB9E002C245B /* FSPInnerOuternerProgressRingViewController.m in Sources */,
 				BCE15980217F04A300861B64 /* FFDialogTextFieldViewController.m in Sources */,
 				BCDCD30F21796E9C007D9682 /* BaseTabBarViewController.m in Sources */,
 				BC2423CE21AEED6600D0E572 /* LBXPermissionPhotos.m in Sources */,
@@ -1242,6 +1275,7 @@
 				BC234CEC217D71D30010DA39 /* UIColor+FF.m in Sources */,
 				BC2423CB21AEED6600D0E572 /* LBXPermissionReminders.m in Sources */,
 				BC2423D021AEED6600D0E572 /* LBXPermissionContacts.m in Sources */,
+				BC21D02321B2CE7D002C245B /* FSPElectricView.m in Sources */,
 				BC1E48B12174C57C001467B7 /* QDUIHelper.m in Sources */,
 				BCDCD30721796E9C007D9682 /* BaseCommonTableViewController.m in Sources */,
 				BCDCD346217B1869007D9682 /* SettingViewController.m in Sources */,

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SEMIBarcodeScannerViewController">
+            <connections>
+                <outlet property="photoView" destination="QyG-qs-cNd" id="yOV-om-gb2"/>
+                <outlet property="scannerview" destination="x7e-H1-oUB" id="dEa-9p-tu5"/>
+                <outlet property="view" destination="UXu-6x-won" id="jwr-ZF-Aqm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="UXu-6x-won">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QyG-qs-cNd">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nav_sweep_bg" translatesAutoresizingMaskIntoConstraints="NO" id="x7e-H1-oUB">
+                    <rect key="frame" x="15" y="154.5" width="345" height="210"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="210" id="8cW-Yr-jDx"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="将条形码放入框内" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nj6-PJ-Lhj">
+                    <rect key="frame" x="122" y="384.5" width="131" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleAspectFit" distribution="equalSpacing" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="bwV-7K-heC">
+                    <rect key="frame" x="15" y="472" width="345" height="60"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ktA-HE-n56">
+                            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                            <state key="normal" image="nav_album_ico"/>
+                            <connections>
+                                <action selector="choosePhotoMethed:" destination="-1" eventType="touchUpInside" id="zTB-Bo-y9T"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuM-hP-fHs">
+                            <rect key="frame" x="142.5" y="0.0" width="60" height="60"/>
+                            <state key="normal" image="nav_light_ico"/>
+                            <connections>
+                                <action selector="openLightMethed:" destination="-1" eventType="touchUpInside" id="0SJ-tS-CfN"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ynF-yb-XSf">
+                            <rect key="frame" x="285" y="0.0" width="60" height="60"/>
+                            <state key="normal" image="nav_close_ico"/>
+                            <connections>
+                                <action selector="closeview:" destination="-1" eventType="touchUpInside" id="Quo-zt-wqf"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="x7e-H1-oUB" firstAttribute="leading" secondItem="UXu-6x-won" secondAttribute="leading" constant="15" id="4op-iZ-sSP"/>
+                <constraint firstAttribute="trailing" secondItem="QyG-qs-cNd" secondAttribute="trailing" id="5BY-7Z-Lrw"/>
+                <constraint firstItem="QyG-qs-cNd" firstAttribute="top" secondItem="UXu-6x-won" secondAttribute="top" id="7zw-pF-NMM"/>
+                <constraint firstAttribute="trailing" secondItem="bwV-7K-heC" secondAttribute="trailing" constant="15" id="Dfs-QT-0Jg"/>
+                <constraint firstItem="x7e-H1-oUB" firstAttribute="centerX" secondItem="UXu-6x-won" secondAttribute="centerX" id="Fdb-4G-GX6"/>
+                <constraint firstItem="SrR-eK-h2D" firstAttribute="bottom" secondItem="bwV-7K-heC" secondAttribute="bottom" constant="135" id="Muh-YD-uKn"/>
+                <constraint firstItem="bwV-7K-heC" firstAttribute="leading" secondItem="UXu-6x-won" secondAttribute="leading" constant="15" id="a0f-GO-dTa"/>
+                <constraint firstItem="nj6-PJ-Lhj" firstAttribute="top" secondItem="x7e-H1-oUB" secondAttribute="bottom" constant="20" id="a6V-qv-SSl"/>
+                <constraint firstItem="nj6-PJ-Lhj" firstAttribute="centerX" secondItem="UXu-6x-won" secondAttribute="centerX" id="bSW-IG-Y6C"/>
+                <constraint firstAttribute="trailing" secondItem="x7e-H1-oUB" secondAttribute="trailing" constant="15" id="p7P-Yk-3XE"/>
+                <constraint firstItem="QyG-qs-cNd" firstAttribute="leading" secondItem="UXu-6x-won" secondAttribute="leading" id="qL7-Qk-1Al"/>
+                <constraint firstItem="x7e-H1-oUB" firstAttribute="centerY" secondItem="UXu-6x-won" secondAttribute="centerY" constant="-74" id="rLS-T7-i4y"/>
+                <constraint firstAttribute="bottom" secondItem="QyG-qs-cNd" secondAttribute="bottom" id="zyt-2f-ocs"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SrR-eK-h2D"/>
+            <point key="canvasLocation" x="813.60000000000002" y="-32.833583208395808"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="nav_album_ico" width="60" height="60"/>
+        <image name="nav_close_ico" width="60" height="60"/>
+        <image name="nav_light_ico" width="60" height="60"/>
+        <image name="nav_sweep_bg" width="300" height="175"/>
+    </resources>
+</document>

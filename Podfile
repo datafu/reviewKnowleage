@@ -15,6 +15,7 @@ target 'reviewKnowleage' do
     pod 'LBXScan/LBXZXing','~> 2.3'
     pod 'LBXScan/LBXZBar','~> 2.3'
     pod 'LBXScan/UI','~> 2.3'
+    pod 'Masonry'
     
   target 'reviewKnowleageTests' do
     inherit! :search_paths

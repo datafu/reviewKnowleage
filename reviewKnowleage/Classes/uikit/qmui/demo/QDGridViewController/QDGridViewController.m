@@ -13,7 +13,7 @@
 #import "SEMIBarcodeScannerViewController.h"
 #import "SEMIPlayMusicViewController.h"
 #import "FSPTimePickerViewController.h"
-
+#import "FSPInnerOuternerProgressRingViewController.h"
 @interface QDGridViewController ()
 
 @end
@@ -44,6 +44,7 @@
         @"SEMIBarcodeScannerViewController",UIImageMake(@"icon_grid_textField"),
         @"SEMIPlayMusicViewController",UIImageMake(@"icon_grid_textField"),
     @"FSPTimePickerViewController",UIImageMake(@"icon_grid_textField"),
+    @"FSPInnerOuternerProgressRingViewController",UIImageMake(@"icon_grid_textField"),
                        
                                         nil];
 }
@@ -65,6 +66,8 @@
         viewController = [[SEMIPlayMusicViewController alloc] init];
     }else if([title isEqualToString:@"FSPTimePickerViewController"]) {
         viewController = [[FSPTimePickerViewController alloc] init];
+    }else if([title isEqualToString:@"FSPInnerOuternerProgressRingViewController"]) {
+        viewController = [[FSPInnerOuternerProgressRingViewController alloc] init];
     }
     viewController.title = title;
     [self.navigationController pushViewController:viewController animated:YES];
