@@ -8,7 +8,7 @@ target 'reviewKnowleage' do
   # Pods for reviewKnowleage
     pod 'QMUIKit'
     pod 'LLDebugTool'
-    pod 'YYKit'
+    pod 'YYText'
     pod 'JPush'
     pod 'Masonry'
     pod 'LBXScan/LBXNative','~> 2.3'
@@ -16,6 +16,12 @@ target 'reviewKnowleage' do
     pod 'LBXScan/LBXZBar','~> 2.3'
     pod 'LBXScan/UI','~> 2.3'
     pod 'Masonry'
+    pod 'MMKV'
+    pod 'KSWebView'
+    # 高德地图sdk
+    pod 'AMapNavi-NO-IDFA'
+    pod 'AMapLocation-NO-IDFA'
+    pod 'AMapSearch-NO-IDFA'
     
   target 'reviewKnowleageTests' do
     inherit! :search_paths

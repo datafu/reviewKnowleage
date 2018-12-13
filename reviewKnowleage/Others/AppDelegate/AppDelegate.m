@@ -8,11 +8,14 @@
 
 #import "AppDelegate.h"
 #import "QDGridViewController.h"
+#import "FSPUsingExampleGridViewController.h"
 #import "BaseNavigationController.h"
 #import "BaseTabBarViewController.h"
 #import "LLDebug.h"
+#import <MMKV/MMKV.h>
+#import <AMapNaviKit/AMapNaviKit.h>
 
-@interface AppDelegate ()
+@interface AppDelegate ()<MMKVHandler>
 
 @end
 
@@ -34,9 +37,47 @@
     [self.window makeKeyAndVisible];
     [self createTabBarController];
     [[LLDebugTool sharedTool] startWorking];
+    [MMKV registerHandler:self];
+    [self funcionalTest];
+    //高德key配置
+#warning  个人账号
+    [AMapServices sharedServices].apiKey = @"7b8ee7226acc82c39505bc788935e436";
+
     return YES;
 }
 
+//微信mmkv 使用
+- (void)funcionalTest {
+//    NSString * datasrr = @"12345678";
+//    NSData * data = [datasrr dataUsingEncoding:NSUTF8StringEncoding];
+//    MMKV *mmkv = [MMKV mmkvWithID:@"test/case1" cryptKey:data];
+    MMKV *mmkv = [MMKV mmkvWithID:@"test/case1" ];
+
+    [mmkv setBool:YES forKey:@"bool"];
+    NSLog(@"bool:%d", [mmkv getBoolForKey:@"bool"]);
+    
+    [mmkv setInt32:-1024 forKey:@"int32"];
+    NSLog(@"int32:%d", [mmkv getInt32ForKey:@"int32"]);
+    
+    
+    [mmkv setObject:nil forKey:@"string"];
+    NSLog(@"string after set nil:%@, containsKey:%d",
+          [mmkv getObjectOfClass:NSString.class
+                          forKey:@"string"],
+          [mmkv containsKey:@"string"]);
+    
+    [mmkv setObject:[NSDate date] forKey:@"date"];
+    NSLog(@"date:%@", [mmkv getObjectOfClass:NSDate.class forKey:@"date"]);
+    
+    [mmkv setObject:[@"hello, mmkv again and again" dataUsingEncoding:NSUTF8StringEncoding] forKey:@"data"];
+   NSData *  data = [mmkv getObjectOfClass:NSData.class forKey:@"data"];
+    NSLog(@"data:%@", [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
+    
+    [mmkv removeValueForKey:@"bool"];
+    NSLog(@"bool:%d", [mmkv getBoolForKey:@"bool"]);
+    
+    [mmkv close];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -76,10 +117,10 @@
     uikitNavController.tabBarItem = [QDUIHelper tabBarItemWithTitle:@"QMUIKit" image:[UIImageMake(@"icon_tabbar_uikit") imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:UIImageMake(@"icon_tabbar_uikit_selected") tag:0];
     
     // UIComponents
-//    QDComponentsViewController *componentViewController = [[QDComponentsViewController alloc] init];
-//    componentViewController.hidesBottomBarWhenPushed = NO;
-//    QDNavigationController *componentNavController = [[QDNavigationController alloc] initWithRootViewController:componentViewController];
-//    componentNavController.tabBarItem = [QDUIHelper tabBarItemWithTitle:@"Components" image:[UIImageMake(@"icon_tabbar_component") imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:UIImageMake(@"icon_tabbar_component_selected") tag:1];
+    FSPUsingExampleGridViewController *componentViewController = [[FSPUsingExampleGridViewController alloc] init];
+    componentViewController.hidesBottomBarWhenPushed = NO;
+    BaseNavigationController *componentNavController = [[BaseNavigationController alloc] initWithRootViewController:componentViewController];
+    componentNavController.tabBarItem = [QDUIHelper tabBarItemWithTitle:@"Components" image:[UIImageMake(@"icon_tabbar_uikit") imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:UIImageMake(@"icon_tabbar_component_selected") tag:1];
 //
 //    // Lab
 //    QDLabViewController *labViewController = [[QDLabViewController alloc] init];
@@ -89,7 +130,7 @@
 //
 //    // window root controller
 //    tabBarViewController.viewControllers = @[uikitNavController, componentNavController, labNavController];
-     tabBarViewController.viewControllers = @[uikitNavController];
+     tabBarViewController.viewControllers = @[uikitNavController,componentNavController];
     self.window.rootViewController = tabBarViewController;
     [self.window makeKeyAndVisible];
 }

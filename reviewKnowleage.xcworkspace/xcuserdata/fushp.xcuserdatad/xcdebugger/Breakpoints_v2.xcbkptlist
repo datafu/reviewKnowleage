@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/QMUIKit/QMUIKit/QMUICore/QMUICommonDefines.h"
-            timestampString = "561720919.874812"
+            timestampString = "566393394.164366"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "612"
@@ -259,7 +259,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "reviewKnowleage/Classes/uikit/progressRingView(&#x753b;&#x5706;&#x73af;)/FSPProgressRingView.m"
-            timestampString = "565367770.07543"
+            timestampString = "565495730.513397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "61"
@@ -275,7 +275,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "reviewKnowleage/Classes/uikit/progressRingView(&#x753b;&#x5706;&#x73af;)/FSPElectricView.m"
-            timestampString = "565367773.424636"
+            timestampString = "565495730.518918"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "62"
@@ -291,12 +291,124 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "reviewKnowleage/Classes/uikit/progressRingView(&#x753b;&#x5706;&#x73af;)/FSPElectricView.m"
-            timestampString = "565367776.9619319"
+            timestampString = "565495730.5193861"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "49"
             endingLineNumber = "49"
             landmarkName = "-layoutSubviews"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "reviewKnowleage/Classes/Modules/uikit(&#x4e00;&#x4e9b;&#x529f;&#x80fd;&#x6548;&#x679c;)/tableview/FSPDragTableviewController.m"
+            timestampString = "565865281.690328"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "-longPressGestureRecognized:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "reviewKnowleage/Classes/Modules/uikit(&#x4e00;&#x4e9b;&#x529f;&#x80fd;&#x6548;&#x679c;)/tableview/FSPDragTableviewController.m"
+            timestampString = "565865281.694103"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "-longPressGestureRecognized:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "reviewKnowleage/Classes/Modules/uikit(&#x4e00;&#x4e9b;&#x529f;&#x80fd;&#x6548;&#x679c;)/tableview/FSPDragTableviewController.m"
+            timestampString = "565865281.694293"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "-longPressGestureRecognized:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/QMUIKit/QMUIKit/QMUIComponents/QMUIButton/QMUIFillButton.m"
+            timestampString = "566375012.601918"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "-init"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/QMUIKit/QMUIKit/QMUIComponents/QMUIButton/QMUIFillButton.m"
+            timestampString = "566375014.327087"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "-initWithFrame:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "reviewKnowleage/Classes/Modules/qmui(&#x901a;&#x7528;&#x63a7;&#x4ef6;&#x5c01;&#x88c5;)/Common/module/uikit(&#x6240;&#x6709;&#x63a7;&#x4ef6;&#x5c01;&#x88c5;)/UITextField/FSPTextField.m"
+            timestampString = "566398092.623755"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "-setNormalRightView:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "reviewKnowleage/Classes/Modules/qmui(&#x901a;&#x7528;&#x63a7;&#x4ef6;&#x5c01;&#x88c5;)/Common/module/uikit(&#x6240;&#x6709;&#x63a7;&#x4ef6;&#x5c01;&#x88c5;)/EditTextField/FSPEditTextFieldWithSmsCode(&#x9a8c;&#x8bc1;&#x7801;&#x8f93;&#x5165;&#x6846;)/FSPEditTextFieldWithSmsCode.m"
+            timestampString = "566398092.624354"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "-didEditTextFieldWithSmsCodeInitialize"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
