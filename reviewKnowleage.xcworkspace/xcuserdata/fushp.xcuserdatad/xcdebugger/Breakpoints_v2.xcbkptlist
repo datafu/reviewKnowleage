@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/QMUIKit/QMUIKit/QMUICore/QMUICommonDefines.h"
-            timestampString = "566393394.164366"
+            timestampString = "567518362.7581789"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "612"
@@ -163,7 +163,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.m"
-            timestampString = "564038134.628951"
+            timestampString = "566462339.60306"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "541"
@@ -387,7 +387,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "reviewKnowleage/Classes/Modules/qmui(&#x901a;&#x7528;&#x63a7;&#x4ef6;&#x5c01;&#x88c5;)/Common/module/uikit(&#x6240;&#x6709;&#x63a7;&#x4ef6;&#x5c01;&#x88c5;)/UITextField/FSPTextField.m"
-            timestampString = "566398092.623755"
+            timestampString = "566443721.3707809"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "48"
@@ -399,16 +399,128 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "reviewKnowleage/Classes/Modules/qmui(&#x901a;&#x7528;&#x63a7;&#x4ef6;&#x5c01;&#x88c5;)/Common/module/uikit(&#x6240;&#x6709;&#x63a7;&#x4ef6;&#x5c01;&#x88c5;)/EditTextField/FSPEditTextFieldWithSmsCode(&#x9a8c;&#x8bc1;&#x7801;&#x8f93;&#x5165;&#x6846;)/FSPEditTextFieldWithSmsCode.m"
-            timestampString = "566398092.624354"
+            timestampString = "566466971.983779"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
             endingLineNumber = "39"
             landmarkName = "-didEditTextFieldWithSmsCodeInitialize"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "reviewKnowleage/Classes/Modules/qmui(&#x901a;&#x7528;&#x63a7;&#x4ef6;&#x5c01;&#x88c5;)/Common/module/uikit(&#x6240;&#x6709;&#x63a7;&#x4ef6;&#x5c01;&#x88c5;)/EditTextField/FSPEditTextField.m"
+            timestampString = "567505379.669353"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "-layoutSubviews"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "reviewKnowleage/Classes/Modules/qmui(&#x901a;&#x7528;&#x63a7;&#x4ef6;&#x5c01;&#x88c5;)/Common/module/BaseScrollviewViewController(&#x6eda;&#x52a8;&#x89c6;&#x56fe;&#x57fa;&#x7c7b;)/FSPBaseScrollviewViewController.m"
+            timestampString = "566466971.98427"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "-loadSubviewToScrollview:width:height:categoryViewHeight:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "reviewKnowleage/Tools/NetworkTools(http&#x8bf7;&#x6c42;&#x5de5;&#x5177;)/FSPNetworkTools.m"
+            timestampString = "566744132.597571"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "+post:andPragram:modelName:modelType:successBlock:failBlock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "reviewKnowleage/Tools/NetworkTools(http&#x8bf7;&#x6c42;&#x5de5;&#x5177;)/FSPNetworkTools.m"
+            timestampString = "566744132.5985169"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "+post:andPragram:modelName:modelType:successBlock:failBlock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "reviewKnowleage/Tools/NetworkTools(http&#x8bf7;&#x6c42;&#x5de5;&#x5177;)/FSPNetworkTools.m"
+            timestampString = "566744132.599072"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "+post:andPragram:modelName:modelType:successBlock:failBlock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "reviewKnowleage/Classes/Modules/uikit(&#x4e00;&#x4e9b;&#x529f;&#x80fd;&#x6548;&#x679c;)/FSPPopupContainerViewController(&#x6d6e;&#x7a97;)/FSPPopUpViewController.m"
+            timestampString = "567067928.23738"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "-clickCollect"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "reviewKnowleage/Classes/Modules/uikit(&#x4e00;&#x4e9b;&#x529f;&#x80fd;&#x6548;&#x679c;)/TouchScrollviewSubview(&#x53ea;&#x54cd;&#x5e94;&#x8303;&#x56f4;&#x5185;&#x5b50;&#x7c7b;&#x6eda;&#x52a8;)/view/FSPSubView.m"
+            timestampString = "567518917.366341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "-touchesBegan:withEvent:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

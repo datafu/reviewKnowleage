@@ -24,6 +24,10 @@
 #import "QDCommonUI.h"
 #import "QDUIHelper.h"
 #import "QDThemeManager.h"
+// 宏定义
+#import "UtilMacro.h"
+#import "FSPUrlMacro.h"
+#import "FSPUserMangager.h"
 #define LBXScan_Define_Native  //下载了native模块
 #define LBXScan_Define_ZXing   //下载了ZXing模块
 #define LBXScan_Define_ZBar   //下载了ZBar模块

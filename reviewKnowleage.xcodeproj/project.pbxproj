@@ -22,6 +22,10 @@
 		BC1C995321C131D800227A5E /* FSPNearByAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1C995221C131D800227A5E /* FSPNearByAnnotationView.m */; };
 		BC1C995621C1384A00227A5E /* SEMIWayPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1C995521C1384A00227A5E /* SEMIWayPointAnnotation.m */; };
 		BC1C995921C13BBA00227A5E /* MANaviRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1C995721C13BBA00227A5E /* MANaviRoute.m */; };
+		BC22EE9C21C72D5B00EFEFAC /* FSPNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BC22EE9B21C72D5B00EFEFAC /* FSPNetworkTools.m */; };
+		BC22EE9F21C735F100EFEFAC /* FSPUrlMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = BC22EE9E21C735F100EFEFAC /* FSPUrlMacro.m */; };
+		BC22EEA421C7820100EFEFAC /* FSPUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BC22EEA321C7820100EFEFAC /* FSPUserInfo.m */; };
+		BC22EEA721C782E600EFEFAC /* FSPUserMangager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC22EEA621C782E600EFEFAC /* FSPUserMangager.m */; };
 		BC234CEC217D71D30010DA39 /* UIColor+FF.m in Sources */ = {isa = PBXBuildFile; fileRef = BC234CEB217D71D20010DA39 /* UIColor+FF.m */; };
 		BC234CEF217DA1DC0010DA39 /* UIButton+FF.m in Sources */ = {isa = PBXBuildFile; fileRef = BC234CEE217DA1DC0010DA39 /* UIButton+FF.m */; };
 		BC236DA921BFA40E00D8BC3C /* FSPYYKitDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC236DA821BFA40E00D8BC3C /* FSPYYKitDemoViewController.m */; };
@@ -96,6 +100,8 @@
 		BC2C915321BA1AB700F5F726 /* FSPTestgithubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2C915221BA1AB700F5F726 /* FSPTestgithubViewController.m */; };
 		BC2C915921BA50A300F5F726 /* FSPDragTableviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2C915821BA50A300F5F726 /* FSPDragTableviewController.m */; };
 		BC2C915C21BA663700F5F726 /* FSPFoldingUnfoldingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2C915B21BA663700F5F726 /* FSPFoldingUnfoldingViewController.m */; };
+		BC2CBA6221CC777600DB1753 /* FSPFSPPopupContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CBA6121CC777600DB1753 /* FSPFSPPopupContainerView.m */; };
+		BC2CBA6621CC7D5600DB1753 /* FSPPopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CBA6521CC7D5600DB1753 /* FSPPopUpViewController.m */; };
 		BC51F23B21C1EA6A004A459B /* FSPNavMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51F23921C1EA6A004A459B /* FSPNavMainViewController.m */; };
 		BC51F23C21C1EA6A004A459B /* FSPNavMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC51F23A21C1EA6A004A459B /* FSPNavMainViewController.xib */; };
 		BC51F24521C1F5B0004A459B /* FSPMapMainNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51F24421C1F5B0004A459B /* FSPMapMainNavigationView.m */; };
@@ -105,11 +111,18 @@
 		BC51F25A21C23145004A459B /* FSPGhostButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51F25921C23145004A459B /* FSPGhostButton.m */; };
 		BC51F26021C23B59004A459B /* FSPThemeMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51F25F21C23B59004A459B /* FSPThemeMacro.m */; };
 		BC51F26321C24F04004A459B /* FSPImagePositionTopButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51F26221C24F04004A459B /* FSPImagePositionTopButton.m */; };
-		BC51F26821C25776004A459B /* FSPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51F26621C25775004A459B /* FSPLoginViewController.m */; };
-		BC51F26921C25776004A459B /* FSPLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC51F26721C25775004A459B /* FSPLoginViewController.xib */; };
 		BC51F26D21C27250004A459B /* FSPEditTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51F26C21C2724F004A459B /* FSPEditTextField.m */; };
 		BC51F27421C27D9C004A459B /* FSPCountdownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51F27321C27D9C004A459B /* FSPCountdownButton.m */; };
 		BC51F27821C286F4004A459B /* FSPEditTextFieldWithSmsCode.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51F27721C286F4004A459B /* FSPEditTextFieldWithSmsCode.m */; };
+		BC5FBDCF21C3662100352075 /* FSPBaseScrollviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5FBDCE21C3662100352075 /* FSPBaseScrollviewViewController.m */; };
+		BC5FBDDB21C3893500352075 /* FSPScrollTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5FBDD621C3893500352075 /* FSPScrollTestViewController.m */; };
+		BC5FBDDC21C3893500352075 /* FSPLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC5FBDD721C3893500352075 /* FSPLoginViewController.xib */; };
+		BC5FBDDD21C3893500352075 /* FSPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5FBDD821C3893500352075 /* FSPLoginViewController.m */; };
+		BC5FBDE021C3896A00352075 /* FSPPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5FBDDF21C3896A00352075 /* FSPPasswordView.m */; };
+		BC5FBDE221C3897300352075 /* FSPPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC5FBDE121C3897300352075 /* FSPPasswordView.xib */; };
+		BC5FBDE521C38E6000352075 /* FSPSmsCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5FBDE421C38E6000352075 /* FSPSmsCodeView.m */; };
+		BC5FBDE721C38E6F00352075 /* FSPSmsCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC5FBDE621C38E6F00352075 /* FSPSmsCodeView.xib */; };
+		BC5FBDEB21C3935200352075 /* FSPSwitchScrollviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5FBDEA21C3935200352075 /* FSPSwitchScrollviewViewController.m */; };
 		BC7319BB216A391B00C7C59E /* reviewKnowleageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7319BA216A391B00C7C59E /* reviewKnowleageTests.m */; };
 		BC7319C6216A391B00C7C59E /* reviewKnowleageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7319C5216A391B00C7C59E /* reviewKnowleageUITests.m */; };
 		BC7326FE216C6AC500C7C59E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7326ED216C6AC400C7C59E /* main.m */; };
@@ -119,6 +132,10 @@
 		BC88E26E21A54C2D002AFC3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC88E26D21A54C2D002AFC3D /* AppDelegate.m */; };
 		BC88E27521A54CE6002AFC3D /* AppDelegate+FSPJPush.m in Sources */ = {isa = PBXBuildFile; fileRef = BC88E27421A54CE6002AFC3D /* AppDelegate+FSPJPush.m */; };
 		BC9731B2217820B900FF126D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC9731B4217820B900FF126D /* Localizable.strings */; };
+		BCC2EA2321D357F600323EDA /* FSPTouchSubScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC2EA2121D357F600323EDA /* FSPTouchSubScrollViewController.m */; };
+		BCC2EA2821D37D0500323EDA /* FSPUIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC2EA2721D37D0500323EDA /* FSPUIScrollView.m */; };
+		BCC2EA2C21D3955300323EDA /* FSPSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC2EA2B21D3955300323EDA /* FSPSubView.m */; };
+		BCC2EA2E21D3956400323EDA /* FSPSubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC2EA2D21D3956400323EDA /* FSPSubView.xib */; };
 		D146D084C8A0E6A5E24EBE98 /* libPods-reviewKnowleageUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0820F34EA9C0F80697FCB0 /* libPods-reviewKnowleageUITests.a */; };
 		E2258A33CB6EEA75E17CF544 /* libPods-reviewKnowleageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE4B0B7E848E74A7C5F7F90 /* libPods-reviewKnowleageTests.a */; };
 /* End PBXBuildFile section */
@@ -176,6 +193,15 @@
 		BC1C995721C13BBA00227A5E /* MANaviRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MANaviRoute.m; sourceTree = "<group>"; };
 		BC1C995821C13BBA00227A5E /* MANaviRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANaviRoute.h; sourceTree = "<group>"; };
 		BC1E48B22174C5D9001467B7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BC22EE9A21C72D5B00EFEFAC /* FSPNetworkTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPNetworkTools.h; sourceTree = "<group>"; };
+		BC22EE9B21C72D5B00EFEFAC /* FSPNetworkTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPNetworkTools.m; sourceTree = "<group>"; };
+		BC22EE9D21C735F100EFEFAC /* FSPUrlMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPUrlMacro.h; sourceTree = "<group>"; };
+		BC22EE9E21C735F100EFEFAC /* FSPUrlMacro.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPUrlMacro.m; sourceTree = "<group>"; };
+		BC22EEA221C7820100EFEFAC /* FSPUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPUserInfo.h; sourceTree = "<group>"; };
+		BC22EEA321C7820100EFEFAC /* FSPUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPUserInfo.m; sourceTree = "<group>"; };
+		BC22EEA521C782E600EFEFAC /* FSPUserMangager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPUserMangager.h; sourceTree = "<group>"; };
+		BC22EEA621C782E600EFEFAC /* FSPUserMangager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPUserMangager.m; sourceTree = "<group>"; };
+		BC22EEA921C783D600EFEFAC /* UtilMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilMacro.h; sourceTree = "<group>"; };
 		BC234CEA217D71D20010DA39 /* UIColor+FF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+FF.h"; sourceTree = "<group>"; };
 		BC234CEB217D71D20010DA39 /* UIColor+FF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FF.m"; sourceTree = "<group>"; };
 		BC234CED217DA1DC0010DA39 /* UIButton+FF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+FF.h"; sourceTree = "<group>"; };
@@ -314,6 +340,10 @@
 		BC2C915821BA50A300F5F726 /* FSPDragTableviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPDragTableviewController.m; sourceTree = "<group>"; };
 		BC2C915A21BA663700F5F726 /* FSPFoldingUnfoldingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPFoldingUnfoldingViewController.h; sourceTree = "<group>"; };
 		BC2C915B21BA663700F5F726 /* FSPFoldingUnfoldingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPFoldingUnfoldingViewController.m; sourceTree = "<group>"; };
+		BC2CBA6021CC777600DB1753 /* FSPFSPPopupContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPFSPPopupContainerView.h; sourceTree = "<group>"; };
+		BC2CBA6121CC777600DB1753 /* FSPFSPPopupContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPFSPPopupContainerView.m; sourceTree = "<group>"; };
+		BC2CBA6421CC7D5600DB1753 /* FSPPopUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPPopUpViewController.h; sourceTree = "<group>"; };
+		BC2CBA6521CC7D5600DB1753 /* FSPPopUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPPopUpViewController.m; sourceTree = "<group>"; };
 		BC51F23821C1EA6A004A459B /* FSPNavMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPNavMainViewController.h; sourceTree = "<group>"; };
 		BC51F23921C1EA6A004A459B /* FSPNavMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPNavMainViewController.m; sourceTree = "<group>"; };
 		BC51F23A21C1EA6A004A459B /* FSPNavMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSPNavMainViewController.xib; sourceTree = "<group>"; };
@@ -330,15 +360,27 @@
 		BC51F25F21C23B59004A459B /* FSPThemeMacro.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPThemeMacro.m; sourceTree = "<group>"; };
 		BC51F26121C24F04004A459B /* FSPImagePositionTopButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPImagePositionTopButton.h; sourceTree = "<group>"; };
 		BC51F26221C24F04004A459B /* FSPImagePositionTopButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPImagePositionTopButton.m; sourceTree = "<group>"; };
-		BC51F26521C25775004A459B /* FSPLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPLoginViewController.h; sourceTree = "<group>"; };
-		BC51F26621C25775004A459B /* FSPLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPLoginViewController.m; sourceTree = "<group>"; };
-		BC51F26721C25775004A459B /* FSPLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSPLoginViewController.xib; sourceTree = "<group>"; };
 		BC51F26B21C2724F004A459B /* FSPEditTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPEditTextField.h; sourceTree = "<group>"; };
 		BC51F26C21C2724F004A459B /* FSPEditTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPEditTextField.m; sourceTree = "<group>"; };
 		BC51F27221C27D9C004A459B /* FSPCountdownButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPCountdownButton.h; sourceTree = "<group>"; };
 		BC51F27321C27D9C004A459B /* FSPCountdownButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPCountdownButton.m; sourceTree = "<group>"; };
 		BC51F27621C286F4004A459B /* FSPEditTextFieldWithSmsCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPEditTextFieldWithSmsCode.h; sourceTree = "<group>"; };
 		BC51F27721C286F4004A459B /* FSPEditTextFieldWithSmsCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPEditTextFieldWithSmsCode.m; sourceTree = "<group>"; };
+		BC5FBDCD21C3662100352075 /* FSPBaseScrollviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPBaseScrollviewViewController.h; sourceTree = "<group>"; };
+		BC5FBDCE21C3662100352075 /* FSPBaseScrollviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPBaseScrollviewViewController.m; sourceTree = "<group>"; };
+		BC5FBDD521C3893500352075 /* FSPLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPLoginViewController.h; sourceTree = "<group>"; };
+		BC5FBDD621C3893500352075 /* FSPScrollTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPScrollTestViewController.m; sourceTree = "<group>"; };
+		BC5FBDD721C3893500352075 /* FSPLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSPLoginViewController.xib; sourceTree = "<group>"; };
+		BC5FBDD821C3893500352075 /* FSPLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPLoginViewController.m; sourceTree = "<group>"; };
+		BC5FBDD921C3893500352075 /* FSPScrollTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPScrollTestViewController.h; sourceTree = "<group>"; };
+		BC5FBDDE21C3896A00352075 /* FSPPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPPasswordView.h; sourceTree = "<group>"; };
+		BC5FBDDF21C3896A00352075 /* FSPPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPPasswordView.m; sourceTree = "<group>"; };
+		BC5FBDE121C3897300352075 /* FSPPasswordView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSPPasswordView.xib; sourceTree = "<group>"; };
+		BC5FBDE321C38E6000352075 /* FSPSmsCodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPSmsCodeView.h; sourceTree = "<group>"; };
+		BC5FBDE421C38E6000352075 /* FSPSmsCodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPSmsCodeView.m; sourceTree = "<group>"; };
+		BC5FBDE621C38E6F00352075 /* FSPSmsCodeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSPSmsCodeView.xib; sourceTree = "<group>"; };
+		BC5FBDE921C3935200352075 /* FSPSwitchScrollviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPSwitchScrollviewViewController.h; sourceTree = "<group>"; };
+		BC5FBDEA21C3935200352075 /* FSPSwitchScrollviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPSwitchScrollviewViewController.m; sourceTree = "<group>"; };
 		BC73199E216A391200C7C59E /* reviewKnowleage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reviewKnowleage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7319B6216A391B00C7C59E /* reviewKnowleageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reviewKnowleageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7319BA216A391B00C7C59E /* reviewKnowleageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reviewKnowleageTests.m; sourceTree = "<group>"; };
@@ -359,6 +401,13 @@
 		BC9731B3217820B900FF126D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		BC9731B5217820BD00FF126D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BC9731B6217820E200FF126D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BCC2EA2021D357F600323EDA /* FSPTouchSubScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPTouchSubScrollViewController.h; sourceTree = "<group>"; };
+		BCC2EA2121D357F600323EDA /* FSPTouchSubScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPTouchSubScrollViewController.m; sourceTree = "<group>"; };
+		BCC2EA2621D37D0500323EDA /* FSPUIScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPUIScrollView.h; sourceTree = "<group>"; };
+		BCC2EA2721D37D0500323EDA /* FSPUIScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPUIScrollView.m; sourceTree = "<group>"; };
+		BCC2EA2A21D3955300323EDA /* FSPSubView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPSubView.h; sourceTree = "<group>"; };
+		BCC2EA2B21D3955300323EDA /* FSPSubView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPSubView.m; sourceTree = "<group>"; };
+		BCC2EA2D21D3956400323EDA /* FSPSubView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSPSubView.xib; sourceTree = "<group>"; };
 		C1C79C17CA49EA869ACD407D /* libPods-reviewKnowleage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reviewKnowleage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDCC08347E67BE27D4A5E0A /* Pods-reviewKnowleageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reviewKnowleageUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-reviewKnowleageUITests/Pods-reviewKnowleageUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D56E074472BF9928884D876A /* Pods-reviewKnowleageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reviewKnowleageUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-reviewKnowleageUITests/Pods-reviewKnowleageUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -553,6 +602,43 @@
 			path = "NearByAnnotationView(附近点)";
 			sourceTree = "<group>";
 		};
+		BC22EE9921C72D3800EFEFAC /* NetworkTools(http请求工具) */ = {
+			isa = PBXGroup;
+			children = (
+				BC22EE9A21C72D5B00EFEFAC /* FSPNetworkTools.h */,
+				BC22EE9B21C72D5B00EFEFAC /* FSPNetworkTools.m */,
+			);
+			name = "NetworkTools(http请求工具)";
+			path = "reviewKnowleage/Tools/NetworkTools(http请求工具)";
+			sourceTree = SOURCE_ROOT;
+		};
+		BC22EEA021C7819E00EFEFAC /* DataManager(数据管理) */ = {
+			isa = PBXGroup;
+			children = (
+				BC22EEA121C781BC00EFEFAC /* UserMangager */,
+			);
+			path = "DataManager(数据管理)";
+			sourceTree = "<group>";
+		};
+		BC22EEA121C781BC00EFEFAC /* UserMangager */ = {
+			isa = PBXGroup;
+			children = (
+				BC22EEA221C7820100EFEFAC /* FSPUserInfo.h */,
+				BC22EEA321C7820100EFEFAC /* FSPUserInfo.m */,
+				BC22EEA521C782E600EFEFAC /* FSPUserMangager.h */,
+				BC22EEA621C782E600EFEFAC /* FSPUserMangager.m */,
+			);
+			path = UserMangager;
+			sourceTree = "<group>";
+		};
+		BC22EEA821C783B300EFEFAC /* UtilMacro(工具宏) */ = {
+			isa = PBXGroup;
+			children = (
+				BC22EEA921C783D600EFEFAC /* UtilMacro.h */,
+			);
+			path = "UtilMacro(工具宏)";
+			sourceTree = "<group>";
+		};
 		BC234CE8217D71B00010DA39 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -716,6 +802,8 @@
 		BC2C909D21BA163100F5F726 /* module */ = {
 			isa = PBXGroup;
 			children = (
+				BC2CBA5F21CC76D300DB1753 /* FSPPopupContainerView(浮窗) */,
+				BC5FBDCC21C365E600352075 /* BaseScrollviewViewController(滚动视图基类) */,
 				BC2C909E21BA163100F5F726 /* BaseCommonViewController(普通控制器的基类) */,
 				BC2C90A121BA163100F5F726 /* CommonTableViewController(列表-添加主题响应) */,
 				BC2C90AA21BA163100F5F726 /* FFDialogViewController( 弹窗组件) */,
@@ -790,6 +878,7 @@
 		BC2C90B221BA163100F5F726 /* uikit(所有控件封装) */ = {
 			isa = PBXGroup;
 			children = (
+				BCC2EA2521D37CC800323EDA /* UIScrollView */,
 				BC51F26A21C27237004A459B /* EditTextField */,
 				BC51F24B21C229E1004A459B /* UIButton */,
 				BC2C90B321BA163100F5F726 /* UILabel */,
@@ -878,6 +967,9 @@
 		BC2C90C621BA163100F5F726 /* uikit(一些功能效果) */ = {
 			isa = PBXGroup;
 			children = (
+				BCC2EA1A21D3530C00323EDA /* TouchScrollviewSubview(只响应范围内子类滚动) */,
+				BC2CBA6321CC7D1800DB1753 /* FSPPopupContainerViewController(浮窗) */,
+				BC5FBDE821C3933400352075 /* SwitchScrollview(滚动视图) */,
 				BC51F26421C2574D004A459B /* Login(登录模块) */,
 				BC1C993621C0F1AB00227A5E /* (地图) */,
 				BC236DA621BFA3A900D8BC3C /* YYtext(富文本) */,
@@ -1060,7 +1152,6 @@
 		BC2C910021BA163100F5F726 /* demo(测试入口) */ = {
 			isa = PBXGroup;
 			children = (
-				BC2C915421BA4D1E00F5F726 /* tableview */,
 				BC2C914D21BA169A00F5F726 /* UsingExampleGridViewController(平时使用的功能) */,
 				BC2C910121BA163100F5F726 /* button(按钮) */,
 				BC2C911321BA163100F5F726 /* QDGridViewController */,
@@ -1120,13 +1211,6 @@
 			path = "UsingExampleGridViewController(平时使用的功能)";
 			sourceTree = "<group>";
 		};
-		BC2C915421BA4D1E00F5F726 /* tableview */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = tableview;
-			sourceTree = "<group>";
-		};
 		BC2C915621BA504B00F5F726 /* tableview */ = {
 			isa = PBXGroup;
 			children = (
@@ -1136,6 +1220,24 @@
 				BC2C915B21BA663700F5F726 /* FSPFoldingUnfoldingViewController.m */,
 			);
 			path = tableview;
+			sourceTree = "<group>";
+		};
+		BC2CBA5F21CC76D300DB1753 /* FSPPopupContainerView(浮窗) */ = {
+			isa = PBXGroup;
+			children = (
+				BC2CBA6021CC777600DB1753 /* FSPFSPPopupContainerView.h */,
+				BC2CBA6121CC777600DB1753 /* FSPFSPPopupContainerView.m */,
+			);
+			path = "FSPPopupContainerView(浮窗)";
+			sourceTree = "<group>";
+		};
+		BC2CBA6321CC7D1800DB1753 /* FSPPopupContainerViewController(浮窗) */ = {
+			isa = PBXGroup;
+			children = (
+				BC2CBA6421CC7D5600DB1753 /* FSPPopUpViewController.h */,
+				BC2CBA6521CC7D5600DB1753 /* FSPPopUpViewController.m */,
+			);
+			path = "FSPPopupContainerViewController(浮窗)";
 			sourceTree = "<group>";
 		};
 		BC51F23D21C1F13F004A459B /* navigationView */ = {
@@ -1191,6 +1293,7 @@
 		BC51F25B21C23B38004A459B /* Macro(宏) */ = {
 			isa = PBXGroup;
 			children = (
+				BC22EEA821C783B300EFEFAC /* UtilMacro(工具宏) */,
 				BC51F25C21C23B38004A459B /* ThemeMacro(主题) */,
 				BC51F25D21C23B38004A459B /* UrlMacro(接口请求) */,
 			);
@@ -1209,6 +1312,8 @@
 		BC51F25D21C23B38004A459B /* UrlMacro(接口请求) */ = {
 			isa = PBXGroup;
 			children = (
+				BC22EE9D21C735F100EFEFAC /* FSPUrlMacro.h */,
+				BC22EE9E21C735F100EFEFAC /* FSPUrlMacro.m */,
 			);
 			path = "UrlMacro(接口请求)";
 			sourceTree = "<group>";
@@ -1216,9 +1321,9 @@
 		BC51F26421C2574D004A459B /* Login(登录模块) */ = {
 			isa = PBXGroup;
 			children = (
-				BC51F26521C25775004A459B /* FSPLoginViewController.h */,
-				BC51F26621C25775004A459B /* FSPLoginViewController.m */,
-				BC51F26721C25775004A459B /* FSPLoginViewController.xib */,
+				BC5FBDD421C3893500352075 /* controller */,
+				BC5FBDDA21C3893500352075 /* model */,
+				BC5FBDD321C3893500352075 /* view */,
 			);
 			path = "Login(登录模块)";
 			sourceTree = "<group>";
@@ -1249,6 +1354,56 @@
 				BC51F27721C286F4004A459B /* FSPEditTextFieldWithSmsCode.m */,
 			);
 			path = "FSPEditTextFieldWithSmsCode(验证码输入框)";
+			sourceTree = "<group>";
+		};
+		BC5FBDCC21C365E600352075 /* BaseScrollviewViewController(滚动视图基类) */ = {
+			isa = PBXGroup;
+			children = (
+				BC5FBDCD21C3662100352075 /* FSPBaseScrollviewViewController.h */,
+				BC5FBDCE21C3662100352075 /* FSPBaseScrollviewViewController.m */,
+			);
+			path = "BaseScrollviewViewController(滚动视图基类)";
+			sourceTree = "<group>";
+		};
+		BC5FBDD321C3893500352075 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BC5FBDDE21C3896A00352075 /* FSPPasswordView.h */,
+				BC5FBDDF21C3896A00352075 /* FSPPasswordView.m */,
+				BC5FBDE121C3897300352075 /* FSPPasswordView.xib */,
+				BC5FBDE321C38E6000352075 /* FSPSmsCodeView.h */,
+				BC5FBDE421C38E6000352075 /* FSPSmsCodeView.m */,
+				BC5FBDE621C38E6F00352075 /* FSPSmsCodeView.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		BC5FBDD421C3893500352075 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC5FBDD521C3893500352075 /* FSPLoginViewController.h */,
+				BC5FBDD821C3893500352075 /* FSPLoginViewController.m */,
+				BC5FBDD721C3893500352075 /* FSPLoginViewController.xib */,
+				BC5FBDD921C3893500352075 /* FSPScrollTestViewController.h */,
+				BC5FBDD621C3893500352075 /* FSPScrollTestViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		BC5FBDDA21C3893500352075 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BC5FBDE821C3933400352075 /* SwitchScrollview(滚动视图) */ = {
+			isa = PBXGroup;
+			children = (
+				BC5FBDE921C3935200352075 /* FSPSwitchScrollviewViewController.h */,
+				BC5FBDEA21C3935200352075 /* FSPSwitchScrollviewViewController.m */,
+			);
+			path = "SwitchScrollview(滚动视图)";
 			sourceTree = "<group>";
 		};
 		BC731995216A391200C7C59E = {
@@ -1319,6 +1474,7 @@
 			isa = PBXGroup;
 			children = (
 				BC2C908C21BA163100F5F726 /* Modules */,
+				BC22EEA021C7819E00EFEFAC /* DataManager(数据管理) */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1335,6 +1491,7 @@
 		BC7326FB216C6AC500C7C59E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				BC22EE9921C72D3800EFEFAC /* NetworkTools(http请求工具) */,
 				BC1399FB219E8CDF00F3D2CA /* Foundation(封装一些常用的方法) */,
 				BC234CE8217D71B00010DA39 /* Category */,
 			);
@@ -1358,6 +1515,35 @@
 				BC88E27421A54CE6002AFC3D /* AppDelegate+FSPJPush.m */,
 			);
 			path = "AppDelegate+Push(极光推送)";
+			sourceTree = "<group>";
+		};
+		BCC2EA1A21D3530C00323EDA /* TouchScrollviewSubview(只响应范围内子类滚动) */ = {
+			isa = PBXGroup;
+			children = (
+				BCC2EA2921D3953B00323EDA /* view */,
+				BCC2EA2021D357F600323EDA /* FSPTouchSubScrollViewController.h */,
+				BCC2EA2121D357F600323EDA /* FSPTouchSubScrollViewController.m */,
+			);
+			path = "TouchScrollviewSubview(只响应范围内子类滚动)";
+			sourceTree = "<group>";
+		};
+		BCC2EA2521D37CC800323EDA /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				BCC2EA2621D37D0500323EDA /* FSPUIScrollView.h */,
+				BCC2EA2721D37D0500323EDA /* FSPUIScrollView.m */,
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		BCC2EA2921D3953B00323EDA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BCC2EA2A21D3955300323EDA /* FSPSubView.h */,
+				BCC2EA2B21D3955300323EDA /* FSPSubView.m */,
+				BCC2EA2D21D3956400323EDA /* FSPSubView.xib */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		DAEC4324428CB00CFD263565 /* Pods */ = {
@@ -1492,13 +1678,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC2C913621BA163100F5F726 /* SEMIPlayMusicViewController.xib in Resources */,
+				BC5FBDE721C38E6F00352075 /* FSPSmsCodeView.xib in Resources */,
 				BC2C912E21BA163100F5F726 /* FSPTimePickerView.xib in Resources */,
 				BC9731B2217820B900FF126D /* Localizable.strings in Resources */,
 				BC2423D921AEF0EC00D0E572 /* Info.plist in Resources */,
 				BC2C912B21BA163100F5F726 /* test.html in Resources */,
+				BC5FBDE221C3897300352075 /* FSPPasswordView.xib in Resources */,
 				BC732703216C6AC500C7C59E /* Main.storyboard in Resources */,
 				BC2C913E21BA163100F5F726 /* SEMIBarcodeScannerViewController.xib in Resources */,
 				BC2C912F21BA163100F5F726 /* FSPTimePickerViewController.xib in Resources */,
+				BCC2EA2E21D3956400323EDA /* FSPSubView.xib in Resources */,
 				BC2C913721BA163100F5F726 /* data2.txt in Resources */,
 				BC732702216C6AC500C7C59E /* LaunchScreen.storyboard in Resources */,
 				BC2C913421BA163100F5F726 /* FSPselfAdaptViewController.xib in Resources */,
@@ -1507,7 +1696,7 @@
 				BC51F24721C1F5D1004A459B /* FSPMapMainNavigationView.xib in Resources */,
 				BC2C913821BA163100F5F726 /* data.txt in Resources */,
 				BC732701216C6AC500C7C59E /* Assets.xcassets in Resources */,
-				BC51F26921C25776004A459B /* FSPLoginViewController.xib in Resources */,
+				BC5FBDDC21C3893500352075 /* FSPLoginViewController.xib in Resources */,
 				BC51F23C21C1EA6A004A459B /* FSPNavMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1587,6 +1776,7 @@
 				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Network/UserInterface/LLNetworkImageCell.xib",
 				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Sandbox/UserInterface/LLSandboxCell.xib",
 				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/General/UserInterface/Resources/LLDebugTool.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/QMUIKit/QMUIKit/QMUIResources/QMUIResources.bundle",
 				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-back.png",
 				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-help.html",
@@ -1610,6 +1800,7 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLNetworkImageCell.nib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLSandboxCell.nib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLDebugTool.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QMUIResources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-back.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-help.html",
@@ -1657,8 +1848,8 @@
 				BC2423E821AFC97400D0E572 /* FSPLrcModel.m in Sources */,
 				BC2C914221BA163100F5F726 /* QDTabBarItemViewController.m in Sources */,
 				BC2C914A21BA163100F5F726 /* QDToolBarButtonViewController.m in Sources */,
+				BC5FBDDD21C3893500352075 /* FSPLoginViewController.m in Sources */,
 				BC139A09219EDC7500F3D2CA /* NSNull+OVNatural.m in Sources */,
-				BC51F26821C25776004A459B /* FSPLoginViewController.m in Sources */,
 				BC2C912021BA163100F5F726 /* BaseCommonGroupListViewController.m in Sources */,
 				BC1C994B21C12DFD00227A5E /* MANaviAnnotation.m in Sources */,
 				BC51F27821C286F4004A459B /* FSPEditTextFieldWithSmsCode.m in Sources */,
@@ -1669,18 +1860,21 @@
 				BC139A0C219EDEB200F3D2CA /* NSString+FSP.m in Sources */,
 				BC234CEF217DA1DC0010DA39 /* UIButton+FF.m in Sources */,
 				BC2C912321BA163100F5F726 /* QDCommonGridViewController.m in Sources */,
+				BC5FBDCF21C3662100352075 /* FSPBaseScrollviewViewController.m in Sources */,
 				BC2C912721BA163100F5F726 /* HeadImgTableViewCell.m in Sources */,
 				BC2423CD21AEED6600D0E572 /* LBXPermissionSetting.m in Sources */,
 				BC2C912821BA163100F5F726 /* BaseTabBarViewController.m in Sources */,
 				BC2423C821AEED6600D0E572 /* LBXPermissionMicrophone.m in Sources */,
 				BC2C911921BA163100F5F726 /* QDThemeManager.m in Sources */,
 				BC51F26021C23B59004A459B /* FSPThemeMacro.m in Sources */,
+				BC22EEA421C7820100EFEFAC /* FSPUserInfo.m in Sources */,
 				BC51F26321C24F04004A459B /* FSPImagePositionTopButton.m in Sources */,
 				BC51F25721C230FA004A459B /* FSPFillButton.m in Sources */,
 				BC1C995321C131D800227A5E /* FSPNearByAnnotationView.m in Sources */,
 				BC1399FF219E8CFA00F3D2CA /* FSPUITextFieldInputJuageTools.m in Sources */,
 				BC2423CE21AEED6600D0E572 /* LBXPermissionPhotos.m in Sources */,
 				BC234CEC217D71D30010DA39 /* UIColor+FF.m in Sources */,
+				BC5FBDDB21C3893500352075 /* FSPScrollTestViewController.m in Sources */,
 				BC2C913321BA163100F5F726 /* FSPselfAdaptViewController.m in Sources */,
 				BC2423CB21AEED6600D0E572 /* LBXPermissionReminders.m in Sources */,
 				BC2423D021AEED6600D0E572 /* LBXPermissionContacts.m in Sources */,
@@ -1688,25 +1882,34 @@
 				BC1C994E21C12E3500227A5E /* MANaviPolyline.m in Sources */,
 				BC2C914621BA163100F5F726 /* FSPViewController.m in Sources */,
 				BC2C915C21BA663700F5F726 /* FSPFoldingUnfoldingViewController.m in Sources */,
+				BCC2EA2821D37D0500323EDA /* FSPUIScrollView.m in Sources */,
 				BC2C911D21BA163100F5F726 /* BaseCommonViewController.m in Sources */,
+				BC5FBDE521C38E6000352075 /* FSPSmsCodeView.m in Sources */,
+				BC5FBDE021C3896A00352075 /* FSPPasswordView.m in Sources */,
 				BC24242421B1325100D0E572 /* FSPTimeDataTools.m in Sources */,
 				BC2C913121BA163100F5F726 /* FSPviolationTableViewViewCell.m in Sources */,
 				BC2423CA21AEED6600D0E572 /* LBXPermissionCalendar.m in Sources */,
 				BC1C995621C1384A00227A5E /* SEMIWayPointAnnotation.m in Sources */,
 				BC2423D221AEED6600D0E572 /* LBXPermission.m in Sources */,
+				BC22EE9F21C735F100EFEFAC /* FSPUrlMacro.m in Sources */,
 				BC2C914521BA163100F5F726 /* QDButtonViewController.m in Sources */,
+				BCC2EA2321D357F600323EDA /* FSPTouchSubScrollViewController.m in Sources */,
 				BC24241721AFE33D00D0E572 /* NSDateFormatter+FSPNSDateShared.m in Sources */,
 				BC2C911B21BA163100F5F726 /* QDUIHelper.m in Sources */,
+				BC2CBA6621CC7D5600DB1753 /* FSPPopUpViewController.m in Sources */,
 				BC1C993521C0E33300227A5E /* MapManager.m in Sources */,
 				BC2423C921AEED6600D0E572 /* LBXPermissionNetwork.m in Sources */,
 				BC2C911A21BA163100F5F726 /* QMUIConfigurationTemplate.m in Sources */,
 				BC2C915021BA16C000F5F726 /* FSPUsingExampleGridViewController.m in Sources */,
+				BCC2EA2C21D3955300323EDA /* FSPSubView.m in Sources */,
 				BC2C912421BA163100F5F726 /* FSPTextField.m in Sources */,
+				BC22EEA721C782E600EFEFAC /* FSPUserMangager.m in Sources */,
 				BC2C913921BA163100F5F726 /* FSPSliderView.m in Sources */,
 				BC2423CF21AEED6600D0E572 /* LBXPermissionLocation.m in Sources */,
 				BC1C995921C13BBA00227A5E /* MANaviRoute.m in Sources */,
 				BC2C911E21BA163100F5F726 /* BaseCommonListViewController.m in Sources */,
 				BC2C913C21BA163100F5F726 /* SEMIBarcodeScannerViewController.m in Sources */,
+				BC2CBA6221CC777600DB1753 /* FSPFSPPopupContainerView.m in Sources */,
 				BC51F23B21C1EA6A004A459B /* FSPNavMainViewController.m in Sources */,
 				BC2C911C21BA163100F5F726 /* QDCommonUI.m in Sources */,
 				BC2C914421BA163100F5F726 /* QDLinkButtonViewController.m in Sources */,
@@ -1719,11 +1922,13 @@
 				BC51F27421C27D9C004A459B /* FSPCountdownButton.m in Sources */,
 				BC1C994421C11F1500227A5E /* POIAnnotation.m in Sources */,
 				BC1C993421C0E33300227A5E /* SpeechSynthesizer.m in Sources */,
+				BC22EE9C21C72D5B00EFEFAC /* FSPNetworkTools.m in Sources */,
 				BC2C911F21BA163100F5F726 /* BaseCommonTableViewController.m in Sources */,
 				BC236DA921BFA40E00D8BC3C /* FSPYYKitDemoViewController.m in Sources */,
 				BC2423D121AEED6600D0E572 /* LBXPermissionCamera.m in Sources */,
 				BC2C912221BA163100F5F726 /* FFDialogViewController.m in Sources */,
 				BC2C912521BA163100F5F726 /* BaseNavigationController.m in Sources */,
+				BC5FBDEB21C3935200352075 /* FSPSwitchScrollviewViewController.m in Sources */,
 				BC1C994521C11F1500227A5E /* FSPNavBaseViewController.m in Sources */,
 				BC2C912C21BA163100F5F726 /* FSPTimePickerViewController.m in Sources */,
 				BC7326FE216C6AC500C7C59E /* main.m in Sources */,

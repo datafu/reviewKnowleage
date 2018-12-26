@@ -22,7 +22,10 @@ target 'reviewKnowleage' do
     pod 'AMapNavi-NO-IDFA'
     pod 'AMapLocation-NO-IDFA'
     pod 'AMapSearch-NO-IDFA'
-    
+    pod 'JXCategoryView'
+    pod 'AFNetworking'
+    #下拉刷新
+    pod 'MJRefresh'
   target 'reviewKnowleageTests' do
     inherit! :search_paths
     # Pods for testing

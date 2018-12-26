@@ -11,6 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void(^FSPEditTextFieldRightButtonClick)(UIButton* btn);
 @interface FSPEditTextField : UIView
 
 
@@ -31,7 +32,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property(nonatomic, strong) UIView *normalRightView;
 
+/* 添加右边图片 默认生成按钮 默认就是指向  normalRightView  并且添加一个点击事件 */
+@property(nonatomic, strong) IBInspectable UIImage *rightClickImage;
 
+/* 右边按钮点击事件 */
+@property(nonatomic, copy) FSPEditTextFieldRightButtonClick fspEditTextFieldRightButtonClick;
 @end
 
 NS_ASSUME_NONNULL_END

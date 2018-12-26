@@ -19,6 +19,11 @@
 #import "FSPNavBaseViewController.h"
 #import "FSPNavMainViewController.h"
 #import "FSPLoginViewController.h"
+#import "FSPScrollTestViewController.h"
+#import "FSPSwitchScrollviewViewController.h"
+#import "FSPPopUpViewController.h"
+#import "FSPTouchSubScrollViewController.h"
+
 @implementation FSPUsingExampleGridViewController
 
 
@@ -47,7 +52,11 @@
                        @"FSPYYKitDemoViewController",UIImageMake(@"icon_grid_textField"),
                        @"FSPNavMainViewController",UIImageMake(@"icon_grid_textField"),
                        @"FSPLoginViewController",UIImageMake(@"icon_grid_textField"),
-    
+                       @"FSPScrollTestViewController",UIImageMake(@"icon_grid_textField"),
+                        @"FSPSwitchScrollviewViewController",UIImageMake(@"icon_grid_textField"),
+                       @"FSPPopUpViewController",UIImageMake(@"icon_grid_textField"),
+                       @"FSPTouchSubScrollViewController",UIImageMake(@"icon_grid_textField"),
+                       
                        nil];
 }
 
@@ -76,6 +85,14 @@
         viewController = [[FSPNavMainViewController alloc] init];
     }else if([title isEqualToString:@"FSPLoginViewController"]) {
         viewController = [[FSPLoginViewController alloc] init];
+    }else if([title isEqualToString:@"FSPScrollTestViewController"]) {
+        viewController = [[FSPScrollTestViewController alloc] init];
+    }else if([title isEqualToString:@"FSPSwitchScrollviewViewController"]) {
+        viewController = [[FSPSwitchScrollviewViewController alloc] init];
+    }else if([title isEqualToString:@"FSPPopUpViewController"]) {
+        viewController = [[FSPPopUpViewController alloc] init];
+    }else if([title isEqualToString:@"FSPTouchSubScrollViewController"]) {
+        viewController = [[FSPTouchSubScrollViewController alloc] init];
     }
     viewController.title = title;
     [self.navigationController pushViewController:viewController animated:YES];

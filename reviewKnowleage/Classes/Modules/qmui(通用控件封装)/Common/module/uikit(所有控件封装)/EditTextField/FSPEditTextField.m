@@ -8,6 +8,7 @@
 
 #import "FSPEditTextField.h"
 #import "FSPTextField.h"
+#import "FSPNormalBUtton.h"
 @interface FSPEditTextField()
 @property(nonatomic, strong) FSPTextField *textfield;
 @property(nonatomic, strong) UIImageView *leftImageView;
@@ -37,6 +38,7 @@
     
     self.textfield = [[FSPTextField alloc] init];
     [self addSubview:self.textfield];
+    self.textfield.delegate = self;
     self.textfield.clearButtonMode = UITextFieldViewModeWhileEditing;
     self.textfield.borderStyle = UITextBorderStyleNone;
     self.qmui_borderPosition = QMUIViewBorderPositionBottom;
@@ -60,6 +62,13 @@
 
 #pragma mark -  private methods
 
+// 右边按钮点击事件
+- (void)didBtnClick:(UIButton*)btn {
+    QMUILogInfo(@"didBtnClick",@"%s",__func__);
+    if (self.fspEditTextFieldRightButtonClick) {
+        self.fspEditTextFieldRightButtonClick(btn);
+    }
+}
 
 #pragma mark - setting and getting
 
@@ -82,5 +91,23 @@
     _normalRightView = normalRightView;
     [self addSubview:_normalRightView];
     [self setNeedsLayout];
+}
+- (void)setRightClickImage:(UIImage *)rightClickImage {
+    _rightClickImage = rightClickImage;
+    FSPNormalBUtton * btn = [[FSPNormalBUtton alloc] init];
+    [btn setImage:rightClickImage forState:0];
+    btn.frame = CGRectMake(0, 0,rightClickImage
+                           .size.width,rightClickImage
+                           .size.height );
+    //添加点击事件
+    [btn addTarget:self action:@selector(didBtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    self.normalRightView = btn;
+    
+}
+
+//限制输入个数
+-(BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string{
+    QMUILog(@"",@"%s-->%@",__func__,string);
+    return YES;
 }
 @end

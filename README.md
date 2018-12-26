@@ -11,3 +11,13 @@
                  
 3. tableview 折叠 https://github.com/zhengwenming/ExpandTableView
 
+4. https://github.com/pujiaxin33/JXCategoryView/ 分类切换滚动视图
+
+5. pod update 库名
+   pod repo update 更新本地库
+   6. 网络库  https://github.com/yuantiku/YTKNetwork
+   7.  基于MVC架构的iOS轻量级框架
+   https://github.com/XuYang8026/UniversalProject
+   http://www.jianshu.com/p/d553096914ff 
+   
+   
